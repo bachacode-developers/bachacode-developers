@@ -23,7 +23,7 @@ import PageSectionWrapper from "@/components/layout/PageSectionWrapper";
 import ContactSection from "@/components/sections/ContactSection";
 import { hasLocale, useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
+import { getPathname, Link } from "@/i18n/navigation";
 import UnderlinedText from "@/components/common/UnderlinedText";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
@@ -34,7 +34,13 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale } = params;
+
+  const defaultPath = "/";
+  const pathname = getPathname({
+    href: defaultPath,
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+  });
 
   const t = await getTranslations({
     locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
@@ -45,11 +51,14 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: "/",
+      canonical: pathname,
       languages: {
-        en: "/",
-        es: "/es",
-        "x-default": "/",
+        en: getPathname({ href: defaultPath, locale: "en" }),
+        es: getPathname({ href: defaultPath, locale: "es" }),
+        "x-default": getPathname({
+          href: defaultPath,
+          locale: routing.defaultLocale,
+        }),
       },
     },
   };
