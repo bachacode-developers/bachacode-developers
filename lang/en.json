@@ -156,7 +156,8 @@
   },
   "about_us": {
     "metadata": {
-      "title": "About Us"
+      "title": "About Us",
+      "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
     },
     "hero": {
       "title": "About <keyword>Bachacode Developers</keyword>",
@@ -207,7 +208,8 @@
   },
   "services": {
     "metadata": {
-      "title": "Services"
+      "title": "Services",
+      "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
     },
     "hero": {
       "title": "Custom <keyword>Web Development</keyword> & Expert Consultings",
@@ -323,7 +325,8 @@
   },
   "portfolio": {
     "metadata": {
-      "title": "Portfolio"
+      "title": "Portfolio",
+      "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
     },
     "hero": {
       "badge": "Our Awesome Portfolio!",
@@ -343,7 +346,8 @@
   },
   "contact": {
     "metadata": {
-      "title": "Contact"
+      "title": "Contact",
+      "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
     },
     "hero": {
       "title": "Contact Us",

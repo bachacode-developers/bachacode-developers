@@ -156,7 +156,8 @@
   },
   "about_us": {
     "metadata": {
-      "title": "Sobre Nosotros"
+      "title": "Sobre Nosotros",
+      "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
     },
     "hero": {
       "title": "Sobre <keyword>Bachacode Developers</keyword>",
@@ -207,7 +208,8 @@
   },
   "services": {
     "metadata": {
-      "title": "Servicios"
+      "title": "Servicios",
+      "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
     },
     "hero": {
       "title": "<keyword>Desarrollo Web</keyword> a Medida y Consultoría Profesional",
@@ -323,7 +325,8 @@
   },
   "portfolio": {
     "metadata": {
-      "title": "Portafolio"
+      "title": "Portafolio",
+      "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
     },
     "hero": {
       "badge": "¡Nuestro Asombroso Portafolio!",
@@ -343,7 +346,8 @@
   },
   "contact": {
     "metadata": {
-      "title": "Contacto"
+      "title": "Contacto",
+      "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
     },
     "hero": {
       "title": "Contáctanos",
