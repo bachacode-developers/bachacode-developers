@@ -1,5 +1,4 @@
 import React from "react";
-import generateTitle from "@/utils/generateTitle";
 import { Metadata } from "next";
 import PageSectionWrapper from "@/components/layout/PageSectionWrapper";
 import ContactSection from "@/components/sections/ContactSection";
@@ -10,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import UnderlinedText from "@/components/common/UnderlinedText";
 import MockupBrowserWindow from "./MockupBrowserWindow";
 import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
+import { getPathname, Link } from "@/i18n/navigation";
 import { ProjectShowcaseList } from "./ProjectShowcase";
 
 export async function generateMetadata({
@@ -20,13 +19,31 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
 
+  const defaultPath = "/portfolio";
+  const pathname = getPathname({
+    href: defaultPath,
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+  });
+
   const t = await getTranslations({
     locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
     namespace: "portfolio.metadata",
   });
 
   return {
-    title: generateTitle(t("title")),
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: pathname,
+      languages: {
+        en: getPathname({ href: defaultPath, locale: "en" }),
+        es: getPathname({ href: defaultPath, locale: "es" }),
+        "x-default": getPathname({
+          href: defaultPath,
+          locale: routing.defaultLocale,
+        }),
+      },
+    },
   };
 }
 

@@ -9,7 +9,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Metadata } from "next";
 import React from "react";
-import generateTitle from "@/utils/generateTitle";
 import { getTranslations } from "next-intl/server";
 import { hasLocale, useTranslations } from "next-intl";
 import { routing } from "@/i18n/routing";
@@ -20,6 +19,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { getPathname } from "@/i18n/navigation";
 
 export async function generateMetadata({
   params,
@@ -28,13 +28,31 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
 
+  const defaultPath = "/contact";
+  const pathname = getPathname({
+    href: defaultPath,
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+  });
+
   const t = await getTranslations({
     locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
     namespace: "contact.metadata",
   });
 
   return {
-    title: generateTitle(t("title")),
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: pathname,
+      languages: {
+        en: getPathname({ href: defaultPath, locale: "en" }),
+        es: getPathname({ href: defaultPath, locale: "es" }),
+        "x-default": getPathname({
+          href: defaultPath,
+          locale: routing.defaultLocale,
+        }),
+      },
+    },
   };
 }
 

@@ -17,13 +17,12 @@ import { faWordpress } from "@fortawesome/free-brands-svg-icons";
 import AdvantageCard from "@/components/cards/AdvantageCard";
 import PageSectionWrapper from "@/components/layout/PageSectionWrapper";
 import { Metadata } from "next";
-import generateTitle from "@/utils/generateTitle";
 import ContactSection from "@/components/sections/ContactSection";
 import { getTranslations } from "next-intl/server";
 import { hasLocale, useTranslations } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
+import { getPathname, Link } from "@/i18n/navigation";
 import UnderlinedText from "@/components/common/UnderlinedText";
 import TechCarouselAlt from "@/components/sections/TechCarouselAlt";
 import { HostingServiceCard } from "./HostingServiceCard";
@@ -35,13 +34,31 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
 
+  const defaultPath = "/services";
+  const pathname = getPathname({
+    href: defaultPath,
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+  });
+
   const t = await getTranslations({
     locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
     namespace: "services.metadata",
   });
 
   return {
-    title: generateTitle(t("title")),
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: pathname,
+      languages: {
+        en: getPathname({ href: defaultPath, locale: "en" }),
+        es: getPathname({ href: defaultPath, locale: "es" }),
+        "x-default": getPathname({
+          href: defaultPath,
+          locale: routing.defaultLocale,
+        }),
+      },
+    },
   };
 }
 
