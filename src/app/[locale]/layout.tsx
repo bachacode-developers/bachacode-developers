@@ -8,6 +8,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import ProgressBarProvider from "@/components/layout/ProgressBarProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { Roboto } from "next/font/google";
+import Script from "next/script";
 
 const roboto = Roboto({ weight: "500", subsets: ["latin"], display: "swap" });
 
@@ -67,6 +68,45 @@ export default async function LocaleLayout({
             </div>
           </ProgressBarProvider>
         </NextIntlClientProvider>
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Bachacode Developers",
+              url: "https://bachacode.com",
+              logo: "https://bachacode.com/images/bachacode.png",
+              sameAs: [
+                "https://www.linkedin.com/company/bachacode-developers",
+                "https://github.com/bachacode",
+              ],
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+58 412 116 3349",
+                email: "support@bachacode.com",
+                contactType: "customer service",
+                areaServed: "worldwide",
+                availableLanguage: ["Spanish", "English"],
+              },
+            }),
+          }}
+        />
+        <Script
+          id="website-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Bachacode Developers",
+              url: "https://bachacode.com",
+            }),
+          }}
+        />
       </body>
     </html>
   );
