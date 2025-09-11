@@ -12,13 +12,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import ContactSection from "@/components/sections/ContactSection";
 import TeamCard from "@/components/cards/TeamCard";
-import generateTitle from "@/utils/generateTitle";
 import { Metadata } from "next";
 import { hasLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import UnderlinedText from "@/components/common/UnderlinedText";
 import { Badge } from "@/components/ui/badge";
+import { getPathname } from "@/i18n/navigation";
 
 export async function generateMetadata({
   params,
@@ -27,13 +27,31 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
 
+  const defaultPath = "/about-us";
+  const pathname = getPathname({
+    href: defaultPath,
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+  });
+
   const t = await getTranslations({
     locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
     namespace: "about_us.metadata",
   });
 
   return {
-    title: generateTitle(t("title")),
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: pathname,
+      languages: {
+        en: getPathname({ href: defaultPath, locale: "en" }),
+        es: getPathname({ href: defaultPath, locale: "es" }),
+        "x-default": getPathname({
+          href: defaultPath,
+          locale: routing.defaultLocale,
+        }),
+      },
+    },
   };
 }
 
