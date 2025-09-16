@@ -3,7 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import MainHeader from "@/components/layout/MainHeader";
 import MainFooter from "@/components/layout/MainFooter";
-import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { hasLocale, NextIntlClientProvider, useTranslations } from "next-intl";
 import ProgressBarProvider from "@/components/layout/ProgressBarProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { Roboto } from "next/font/google";
@@ -23,6 +23,8 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }>) {
   const { locale } = await params;
+
+  const t = useTranslations("metadata");
 
   // Ensure that the incoming `locale` is valid
   if (!hasLocale(routing.locales, locale)) {
@@ -93,8 +95,12 @@ export default async function LocaleLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
+              "@id": "https://bachacode.com/#website",
               name: "Bachacode Developers",
               url: "https://bachacode.com",
+              description: t("website.description"),
+              publisher: { "@id": "https://bachacode.com/#organization" },
+              inLanguage: locale,
             }),
           }}
         />
