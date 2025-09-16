@@ -8,6 +8,7 @@ import ProgressBarProvider from "@/components/layout/ProgressBarProvider";
 import { Analytics } from "@vercel/analytics/next";
 import { Roboto } from "next/font/google";
 import Script from "next/script";
+import Head from "next/head";
 
 const roboto = Roboto({ weight: "500", subsets: ["latin"], display: "swap" });
 
@@ -36,24 +37,11 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${roboto.className} bg-background/10`}>
-        <NextIntlClientProvider>
-          <ProgressBarProvider>
-            <div className="flex min-h-screen w-full flex-col items-center">
-              {/* Header */}
-              <MainHeader></MainHeader>
-              {/* Main Context */}
-              {children}
-              {/* Footer */}
-              <MainFooter></MainFooter>
-              <Analytics />
-            </div>
-          </ProgressBarProvider>
-        </NextIntlClientProvider>
+      <Head>
         <Script
           id="organization-schema"
           type="application/ld+json"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -90,7 +78,7 @@ export default async function LocaleLayout({
         <Script
           id="website-schema"
           type="application/ld+json"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -104,6 +92,21 @@ export default async function LocaleLayout({
             }),
           }}
         />
+      </Head>
+      <body className={`${roboto.className} bg-background/10`}>
+        <NextIntlClientProvider>
+          <ProgressBarProvider>
+            <div className="flex min-h-screen w-full flex-col items-center">
+              {/* Header */}
+              <MainHeader></MainHeader>
+              {/* Main Context */}
+              {children}
+              {/* Footer */}
+              <MainFooter></MainFooter>
+              <Analytics />
+            </div>
+          </ProgressBarProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
