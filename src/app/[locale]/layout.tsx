@@ -56,9 +56,20 @@ export default async function LocaleLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
+              "@id": "https://bachacode.com/#organization",
               name: "Bachacode Developers",
               url: "https://bachacode.com",
-              logo: "https://bachacode.com/images/bachacode.png",
+              logo: {
+                "@type": "ImageObject",
+                "@id": "https://bachacode.com/#logo",
+                inLanguage: locale,
+                height: 95,
+                width: 384,
+                contentUrl: "https://bachacode.com/images/bachacode.png",
+                url: "https://bachacode.com/images/bachacode.png",
+                caption: "Bachacode Developers",
+              },
+              image: { "@id": "https://bachacode.com/#logo" },
               sameAs: [
                 "https://www.linkedin.com/company/bachacode-developers",
                 "https://github.com/bachacode",
