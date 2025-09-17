@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "website": {
+      "description": "Website development for small businesses"
+    }
+  },
   "navigation": {
     "home": "Home",
     "about_us": "About Us",
@@ -157,7 +162,7 @@
   "about_us": {
     "metadata": {
       "title": "About Us",
-      "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      "description": "Discover Bachacode Developers, innovative web development experts since 2021. Learn about our mission for high-quality, personalized digital solutions, ethical values, and skilled team including Fullstack Developers and UX/UI Designers committed to client success."
     },
     "hero": {
       "title": "About <keyword>Bachacode Developers</keyword>",

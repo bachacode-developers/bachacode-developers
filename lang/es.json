@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "website": {
+      "description": "Desarrollo web para negocios pequeños"
+    }
+  },
   "navigation": {
     "home": "Inicio",
     "about_us": "Sobre Nosotros",
@@ -157,7 +162,7 @@
   "about_us": {
     "metadata": {
       "title": "Sobre Nosotros",
-      "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
+      "description": "Descubre Bachacode Developers, expertos innovadores en desarrollo web desde 2021. Conoce nuestra misión de ofrecer soluciones digitales personalizadas y de alta calidad, nuestros valores éticos y nuestro equipo de profesionales, incluyendo Desarrolladores Fullstack y Diseñadores UX/UI, comprometidos con el éxito de los clientes."
     },
     "hero": {
       "title": "Sobre <keyword>Bachacode Developers</keyword>",
