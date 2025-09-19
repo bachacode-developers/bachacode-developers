@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -7,17 +7,28 @@ config.autoAddCss = false;
 const baseUrl = process.env.NEXT_PUBLIC_FRONTEND_URL ?? "https://bachacode.com";
 
 export const metadata: Metadata = {
-  title: "Bachacode Developers | Web Development & Consulting",
+  title: {
+    default: "Bachacode Developers | Web Development & Consulting",
+    template: "%s | Bachacode Developers",
+  },
   description:
     "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs.",
-  keywords: "development, programming, wordpress, php, laravel, support",
+  keywords: [
+    "web development",
+    "programming",
+    "wordpress",
+    "php",
+    "laravel",
+    "support",
+    "custom websites",
+  ],
   authors: [{ name: "Cristhian Flores", url: "https://bachacode.com" }],
   metadataBase: new URL(baseUrl),
   alternates: {
-    canonical: "/",
+    canonical: new URL("/", baseUrl).toString(),
     languages: {
-      en: "/",
-      es: "/es",
+      en: new URL("/", baseUrl).toString(),
+      es: new URL("/es", baseUrl).toString(),
     },
   },
   robots: {
@@ -27,6 +38,11 @@ export const metadata: Metadata = {
     "max-snippet": -1,
     "max-video-preview": -1,
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
