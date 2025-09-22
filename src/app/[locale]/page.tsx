@@ -30,7 +30,6 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { StructuredData } from "@/components/layout/StructuredData";
 import { generateWebPageSchema } from "@/lib/generateWebPageSchema";
-// import { generateWebPageSchema } from "@/lib/generateWebPageSchema";
 
 export async function generateMetadata({
   params,
