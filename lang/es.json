@@ -43,21 +43,21 @@
       "experience": "Años de experiencía"
     },
     "services": {
-      "title": "¿Qué te <keyword>ofrecemos</keyword>?",
+      "title": "¿Qué te <keyword>ofrecemos</keyword> para tu negocio?",
       "subtitle": "Los servicios accessibles a todos nuestros clientes",
       "cards": {
         "static": {
-          "title": "Sitios Web Estáticos",
-          "body": "Desarrollo de sitios web a medida con contenido estático, ideal para proyectos pequeños que no requieren actualizaciones frecuentes, como landing pages, portafolios o catálogos. Estos sitios ofrecen velocidad, seguridad y eficiencia para contenido estable.",
+          "title": "Páginas Web Sencilas",
+          "body": "Páginas web personalizadas con contenido estático, ideales para pequeños negocios y emprendedores que quieren una web sencilla, como un sitio web corporativo o un portafolio estático. Estas páginas son asequibles, rápidas y eficientes, perfectas para contenido estable que no cambia con frecuencia.",
           "features": {
             "affordable": "Asequible",
-            "lightning_fast": "Extremadamente Rápido",
+            "lightning_fast": "Carga Rapida",
             "short_delivery": "Tiempo de Entrega Corto"
           }
         },
         "wordpress": {
           "title": "Sitios Web con WordPress",
-          "body": "Desarrollo de sitios web con WordPress, brindando control total del contenido sin necesidad de tocar código. Ideal para proyectos medianos como blogs, portafolios o sitios corporativos, ofreciendo flexibilidad, escalabilidad y fácil personalización.",
+          "body": "Desarrollo de sitios web con WordPress, brindando control total del contenido sin necesidad de tocar código. Ideal para proyectos medianos como blogs, portafolios dinámicos o catálogos de productos, ofreciendo flexibilidad y fácil personalización para negocios pequeños y emprendedores.",
           "features": {
             "custom_themes": "Temas Personalizados",
             "custom_plugins": "Plugins Personalizados",
@@ -75,16 +75,16 @@
         },
         "consulting": {
           "title": "Consultoría Web",
-          "body": "Si quieres agregar nuevas funcionalidades o actualizar tu proyecto actual, nos encargamos de planificar todo el proceso por ti. Desde la estimación de tiempo hasta la creación del presupuesto, te ofreceremos soluciones utilizando las tecnologías que mejor conocemos, garantizando un desarrollo eficiente según tus necesidades.",
+          "body": "Si eres propietario de una pequeña empresa o un emprendedor y quieres agregar nuevas funciones o actualizar tu página web, nosotros planificamos todo el proceso por ti. Desde estimaciones de tiempo hasta planificación del presupuesto, ofrecemos un camino claro para mejorar la captación de tu empresa, entregando un plan asequible y eficiente que se adapta a las necesidades de tu negocio.",
           "features": {
-            "strategic": "Estratégico",
+            "strategic": "Planificación",
             "best_practices": "Mejores Prácticas",
             "growth_focus": "Enfoque en el Crecimiento"
           }
         },
         "support": {
-          "title": "Soporte Web",
-          "body": "Cuando se trata de tu proyecto existente, podemos ayudarte con el soporte web y corregir cualquier error que encuentres. Planificaremos todo el proceso, ofreciendo soluciones en las tecnologías que mejor conocemos para garantizar que el desarrollo sea eficiente y satisfaga tus necesidades específicas.",
+          "title": "Soporte para Sitios Web",
+          "body": "Si tu página web necesita correcciones o actualizaciones, nuestro servicio de soporte web mantiene todo funcionando sin problemas. Corregimos errores, actualizamos contenido, gestionamos plugins y problemas de hosting, y nos aseguramos de que tu sitio sea seguro y rápido. Con soluciones claras y soporte confiable, puedes enfocarte en tu negocio mientras nosotros nos encargamos de la parte técnica.",
           "features": {
             "support_time": "Soporte 24/7",
             "regular_updates": "Actualizaciones Regulares",
@@ -92,12 +92,12 @@
           }
         },
         "optimization": {
-          "title": "Optimización de Sitios Web",
-          "body": "Cuando se trata de tu proyecto existente, podemos ayudarte con el soporte web y corregir cualquier error que encuentres. Planificaremos todo el proceso, ofreciendo soluciones en las tecnologías que mejor conocemos para garantizar que el desarrollo sea eficiente y satisfaga tus necesidades específicas.",
+          "title": "Optimización de Páginas Web",
+          "body": "Nuestro servicio de optimización web hace que tu página web sea más rápida, fácil de usar y más visible en línea. Mejoramos la velocidad de carga, la experiencia en móviles y el SEO básico para que tus clientes te encuentren rápidamente y disfruten navegando por tu sitio. Con una página web más profesional y fluida, atraerás más visitantes y los convertirás en clientes.",
           "features": {
-            "speed_boost": "Aumento de Velocidad",
+            "speed_boost": "Velocidad de carga",
             "seo_improvement": "Mejora de SEO",
-            "user_experience": "Experiencia de Usuario"
+            "user_experience": "Mejora de UI/UX"
           }
         }
       }

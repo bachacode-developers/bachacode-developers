@@ -43,21 +43,21 @@
       "experience": "Years of experience"
     },
     "services": {
-      "title": "what do we <keyword>offer</keyword> you?",
+      "title": "What do we <keyword>offer</keyword> to your business?",
       "subtitle": "Services accessible to all our customers",
       "cards": {
         "static": {
           "title": "Static Websites",
-          "body": "Custom website development with static content, ideal for small projects that do not require frequent updates, such as landing pages, portfolios or catalogs. These sites offer speed, security and efficiency for stable content.",
+          "body": "Custom websites with static content, ideal for small companies and entrepreneurs that wants to make a simple website like a corporate website or an static portfolio. These sites are affordable, fast and efficient for stable content that doesn't change often.",
           "features": {
             "affordable": "Affordable",
-            "lightning_fast": "Lightning Fast",
+            "lightning_fast": "Fast Loading",
             "short_delivery": "Short Delivery Time"
           }
         },
         "wordpress": {
           "title": "WordPress Websites",
-          "body": "Website development with WordPress, providing full control of the content without the need to touch code. Ideal for medium-sized projects such as blogs, portfolios or corporate sites, offering flexibility, scalability and easy customization.",
+          "body": "Website development with WordPress, providing full control of the content without having to touch code. Ideal for medium-sized projects such as blogs, dynamic portfolios or product catalogs, offering flexibility and easy customization for businesses and entrepreneurs.",
           "features": {
             "custom_themes": "Custom Themes",
             "custom_plugins": "Custom Plugins",
@@ -75,16 +75,16 @@
         },
         "consulting": {
           "title": "Web Consulting",
-          "body": "If you want to add new functionalities or update your current project, we'll take care of planning the entire process for you. From time estimation to budget creation, we'll offer solutions using the technologies we know best, guaranteeing an efficient development according to your needs.",
+          "body": "If you own a small business or are an entrepreneur looking to add new features or update your website, we’ll plan the whole process for you. From time estimates to budget planning, we provide you a clear path to improve your business engagement, delivering affordable and efficient plans that fits your business needs.",
           "features": {
-            "strategic": "Strategic",
+            "strategic": "Planning",
             "best_practices": "Best Practices",
             "growth_focus": "Growth Focus"
           }
         },
         "support": {
           "title": "Web Support",
-          "body": "When it comes to your existing project, we can help you with web support and correct any errors you find. We'll plan out the whole process, offering solutions in the technologies we know best to ensure the development is efficient and meets your specific needs.",
+          "body": "If your website needs fixes or updates, our web support service keeps everything running smoothly. We correct errors, update content, handle plugins and hosting issues, and make sure your site stays secure and fast. With clear solutions and reliable support, you can focus on your business while we take care of the technical side.",
           "features": {
             "support_time": "24/7 Support",
             "regular_updates": "Regular Updates",
@@ -93,7 +93,7 @@
         },
         "optimization": {
           "title": "Website Optimization",
-          "body": "When it comes to your existing project, we can help you with web support and correct any errors you find. We'll plan out the whole process, offering solutions in the technologies we know best to ensure the development is efficient and meets your specific needs.",
+          "body": "Our web optimization service makes your website faster, easier to use, and more visible online. We improve loading speed, mobile experience, and basic SEO so customers can find you quickly and enjoy browsing your site. With a smoother, more professional website, you’ll attract more visitors and turn them into clients.",
           "features": {
             "speed_boost": "Speed Boost",
             "seo_improvement": "SEO Improvement",
