@@ -43,6 +43,7 @@ export default function ServiceCard({ index, service }: ServiceCardProps) {
         >
           <FontAwesomeIcon
             icon={service.icon}
+            title={service.title}
             fixedWidth
             className={`text-4xl ${service.iconColor}`}
           />
