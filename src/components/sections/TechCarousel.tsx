@@ -1,28 +1,25 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faJs,
-  faLaravel,
-  faPhp,
-  faReact,
-  faVuejs,
-  faWordpress,
-  faGolang,
-} from "@fortawesome/free-brands-svg-icons";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import Autoscroll from "embla-carousel-auto-scroll";
+
+export interface TechCarouselItem {
+  icon: IconProp;
+  title: string;
+  className?: string;
+}
 
 function TechCarouselItem({
   icon,
   title,
   className = "group-hover:text-primary",
-}: Readonly<{ icon: IconProp; title: string; className?: string }>) {
+}: Readonly<TechCarouselItem>) {
   return (
     <CarouselItem className="group flex basis-1/2 flex-col items-center sm:basis-1/3 md:basis-1/4 lg:basis-1/5">
       <FontAwesomeIcon
@@ -40,12 +37,26 @@ function TechCarouselItem({
 export default function TechCarousel({
   directionAS = "forward",
   directionOpt = "ltr",
-  carouselIndex = 0,
+  items,
+  shuffle = false,
 }: Readonly<{
   directionAS?: "forward" | "backward";
   directionOpt?: "ltr" | "rtl";
-  carouselIndex?: number;
+  items: TechCarouselItem[];
+  shuffle?: boolean;
 }>) {
+  const [shuffledItems, setShuffledItems] = useState(items);
+
+  useEffect(() => {
+    if (shuffle) {
+      setShuffledItems(
+        [...items]
+          .map((value) => ({ value, sort: Math.random() }))
+          .sort((a, b) => a.sort - b.sort)
+          .map(({ value }) => value),
+      );
+    }
+  }, [items, shuffle]);
   return (
     <Carousel
       className="w-full pb-3"
@@ -54,7 +65,6 @@ export default function TechCarousel({
         loop: true,
         watchDrag: false,
         direction: directionOpt,
-        startIndex: carouselIndex,
       }}
       plugins={[
         Autoscroll({
@@ -67,41 +77,14 @@ export default function TechCarousel({
       ]}
     >
       <CarouselContent>
-        <TechCarouselItem
-          icon={faLaravel}
-          title="Laravel"
-          className="group-hover:text-red-600"
-        />
-        <TechCarouselItem
-          icon={faReact}
-          title="React.Js"
-          className="group-hover:text-blue-500"
-        />
-        <TechCarouselItem
-          icon={faVuejs}
-          title="Vue.Js"
-          className="group-hover:text-emerald-500"
-        />
-        <TechCarouselItem
-          icon={faWordpress}
-          title="WordPress"
-          className="group-hover:text-blue-500"
-        />
-        <TechCarouselItem
-          icon={faJs}
-          title="JavaScript"
-          className="group-hover:text-yellow-500"
-        />
-        <TechCarouselItem
-          icon={faPhp}
-          title="PHP"
-          className="group-hover:text-indigo-500"
-        />
-        <TechCarouselItem
-          icon={faGolang}
-          title="Golang"
-          className="group-hover:text-teal-blue-accent-500"
-        />
+        {shuffledItems.map((item, index) => (
+          <TechCarouselItem
+            key={index}
+            icon={item.icon}
+            title={item.title}
+            className={item.className}
+          />
+        ))}
       </CarouselContent>
     </Carousel>
   );

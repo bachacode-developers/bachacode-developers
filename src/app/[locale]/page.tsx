@@ -1,7 +1,15 @@
 import Image from "next/image";
 import ServiceCard, { Service } from "@/components/cards/ServiceCard";
 import TestimonialCard from "@/components/cards/TestimonialCard";
-import { faWordpress } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGolang,
+  faJs,
+  faLaravel,
+  faPhp,
+  faReact,
+  faVuejs,
+  faWordpress,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
   faComments,
@@ -13,7 +21,9 @@ import {
   faWind,
   faWindowRestore,
 } from "@fortawesome/free-solid-svg-icons";
-import TechCarousel from "@/components/sections/TechCarousel";
+import TechCarousel, {
+  TechCarouselItem,
+} from "@/components/sections/TechCarousel";
 import Heading from "@/components/common/Heading";
 import TeamCard from "@/components/cards/TeamCard";
 import OfferingCard from "@/components/cards/OfferingCard";
@@ -168,6 +178,44 @@ export default function Home() {
     },
   ];
 
+  const techs: TechCarouselItem[] = [
+    {
+      icon: faLaravel,
+      title: "Laravel",
+      className: "group-hover:text-red-600",
+    },
+    {
+      icon: faReact,
+      title: "React.Js",
+      className: "group-hover:text-blue-500",
+    },
+    {
+      icon: faVuejs,
+      title: "Vue.Js",
+      className: "group-hover:text-emerald-500",
+    },
+    {
+      icon: faWordpress,
+      title: "WordPress",
+      className: "group-hover:text-blue-500",
+    },
+    {
+      icon: faJs,
+      title: "JavaScript",
+      className: "group-hover:text-yellow-500",
+    },
+    {
+      icon: faPhp,
+      title: "PHP",
+      className: "group-hover:text-indigo-500",
+    },
+    {
+      icon: faGolang,
+      title: "Golang",
+      className: "group-hover:text-teal-blue-accent-500",
+    },
+  ];
+
   return (
     <StructuredData schemas={[webpageSchema]}>
       <main className="w-full">
@@ -304,11 +352,12 @@ export default function Home() {
           />
 
           <div className="flex w-full flex-col items-center">
-            <TechCarousel />
+            <TechCarousel items={techs} shuffle />
             <TechCarousel
               directionAS="backward"
               directionOpt="ltr"
-              carouselIndex={3}
+              items={techs}
+              shuffle
             />
           </div>
         </div>
