@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ServiceCard, { Service } from "@/components/cards/ServiceCard";
-import TestimonialCard from "@/components/cards/TestimonialCard";
 import {
   faGolang,
   faJs,
@@ -40,6 +39,8 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { StructuredData } from "@/components/layout/StructuredData";
 import { generateWebPageSchema } from "@/lib/generateWebPageSchema";
+import ProjectCarousel from "./(homepage)/ProjectCarousel";
+import projects from "./portfolio/projects";
 
 export async function generateMetadata({
   params,
@@ -216,6 +217,7 @@ export default function Home() {
     },
   ];
 
+  const localizedProjects = projects.get(locale || "en") || [];
   return (
     <StructuredData schemas={[webpageSchema]}>
       <main className="w-full">
@@ -371,19 +373,7 @@ export default function Home() {
           subtitle={t("clients.subtitle")}
           altBackground
         >
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            <TestimonialCard
-              name={t("clients.testimonies.tailor.name")}
-              profession={t("clients.testimonies.tailor.occupation")}
-              testimony={t("clients.testimonies.tailor.body")}
-            />
-
-            <TestimonialCard
-              name={t("clients.testimonies.mesgo.name")}
-              profession={t("clients.testimonies.mesgo.occupation")}
-              testimony={t("clients.testimonies.mesgo.body")}
-            />
-          </div>
+          <ProjectCarousel items={localizedProjects} />
         </PageSectionWrapper>
 
         {/* Our team */}
