@@ -11,7 +11,7 @@ import Image from "next/image";
 
 function ProjectCarouselItem(project: Readonly<Project>) {
   return (
-    <CarouselItem className="group flex">
+    <CarouselItem className="group flex md:basis-1/2">
       <div className="relative mx-auto w-full max-w-4xl overflow-hidden rounded-lg shadow-lg">
         <Image
           src={project.image.src}
@@ -55,8 +55,8 @@ export default function ProjectCarousel({ items }: { items: Project[] }) {
           <ProjectCarouselItem key={item.id} {...item} />
         ))}
       </CarouselContent>
-      <CarouselNext />
-      <CarouselPrevious />
+      <CarouselNext variant="default" />
+      <CarouselPrevious variant="default" />
     </Carousel>
   );
 }
