@@ -123,24 +123,24 @@
       }
     },
     "team": {
-      "title": "We <keyword>guarantee</keyword>",
-      "subtitle": "What you will get by working with us",
+      "title": "What we <keyword>guarantee</keyword> to your business",
+      "subtitle": "What benefits your business will get working with us",
       "cards": {
         "development": {
-          "title": "Agile development",
-          "body": "With us, agile development means fast adaptation to your needs and constant results. We guarantee efficiency and precise adjustment to what you really need in your project."
+          "title": "Agile Web Development for Small Businesses",
+          "body": "Our agile web development for small businesses delivers fast, custom websites tailored to entrepreneurs' needs, ensuring efficiency and scalability."
         },
         "communication": {
-          "title": "Communication",
-          "body": "In our approach, communication is fundamental. We keep channels open for constant and clear interaction with you. We listen to your needs and keep you informed at all times, ensuring that your vision is faithfully reflected in the final project."
+          "title": "Clear Communication in Website Development Projects",
+          "body": "We prioritize transparent communication in website development, keeping entrepreneurs informed to ensure your small business website aligns perfectly with your vision."
         },
         "prices": {
-          "title": "Adjustable prices",
-          "body": "We offer flexible pricing to fit your budget without compromising quality. We work together to find the best solution that fits your economic needs."
+          "title": "Affordable Web Development Pricing for Entrepreneurs",
+          "body": "Our affordable web development services offer flexible pricing for small businesses, delivering high-quality websites that fit your budget and drive growth."
         },
         "flexible": {
-          "title": "Flexible features",
-          "body": "Our projects are distinguished by their flexibility, adjusting to your evolving needs. Each feature is customizable to ensure your full satisfaction, allowing you to modify the project according to your changing requirements throughout the development until it goes online."
+          "title": "Flexible Website Features for Growing Small Businesses",
+          "body": "Customizable website features adapt to your small business needs, ensuring entrepreneurs get flexible, scalable web development solutions until launch."
         }
       },
       "members": {

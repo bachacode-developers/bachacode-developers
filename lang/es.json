@@ -123,24 +123,24 @@
       }
     },
     "team": {
-      "title": "Nosotros <keyword>garantizamos</keyword>",
-      "subtitle": "Lo que obtendrás trabajando con nosotros",
+      "title": "Lo que nosotros le <keyword>garantizamos</keyword> a tu negocio",
+      "subtitle": "Lo que obtendrá tu negocio al trabajar con nosotros",
       "cards": {
         "development": {
-          "title": "Desarrollo ágil",
-          "body": "Con nosotros, el desarrollo ágil significa adaptación rápida a tus necesidades y resultados constantes. Garantizamos eficiencia y ajuste preciso a lo que realmente necesitas en tu proyecto."
+          "title": "Desarrollo Web Ágil para Negocios Pequeños",
+          "body": "Nuestro desarrollo web ágil para negocios pequeños entrega sitios rápidos y personalizados, perfectos para emprendedores buscando eficiencia y escalabilidad."
         },
         "communication": {
-          "title": "Comunicación",
-          "body": "En nuestro enfoque, la comunicación es fundamental. Mantenemos canales abiertos para una interacción constante y clara contigo. Escuchamos tus necesidades y te mantenemos informado en todo momento, asegurando que tu visión se refleje fielmente en el proyecto final."
+          "title": "Comunicación Clara en Páginas Web para Negocios Pequeños",
+          "body": "Priorizamos comunicación transparente en páginas web para negocios pequeños, manteniendo emprendedores informados para alinear perfectamente con tu visión."
         },
         "prices": {
-          "title": "Precios ajustables",
-          "body": "Ofrecemos precios flexibles para adaptarnos a tu presupuesto sin comprometer la calidad. Trabajamos juntos para encontrar la mejor solución que se ajuste a tus necesidades económicas."
+          "title": "Precios Asequibles en Web para Negocios Pequeños",
+          "body": "Ofrecemos desarrollo web asequible para negocios pequeños con precios flexibles, entregando sitios de calidad que caben en tu presupuesto."
         },
         "flexible": {
-          "title": "Caracteristicas flexibles",
-          "body": "Nuestros proyectos se distinguen por su flexibilidad, ajustándose a tus necesidades en evolución. Cada característica es personalizable para asegurar tu plena satisfacción, permitiéndote modificar el proyecto según tus requerimientos cambiantes a lo largo del desarrollo hasta su puesta en línea."
+          "title": "Funciones Flexibles en Sitios Web para Negocios Pequeños",
+          "body": "Funciones personalizables de sitios web para negocios pequeños se adaptan a emprendedores, asegurando soluciones escalables hasta el lanzamiento."
         }
       },
       "members": {
