@@ -391,6 +391,13 @@ export default function Home() {
           altBackground
         >
           <ProjectCarousel items={localizedProjects} />
+              <Button
+                size="lg"
+                className="rounded-sm px-8 py-6 text-lg uppercase"
+                asChild
+              >
+                <Link href="/portfolio" aria-label={t("clients.button.aria_label")}>{t("clients.button.text")}</Link>
+              </Button>
         </PageSectionWrapper>
 
         {/* Our team */}

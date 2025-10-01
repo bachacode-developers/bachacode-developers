@@ -128,6 +128,10 @@
           "occupation": "CEO de MESGO",
           "body": "Gracias a Bachacode Developers logramos cumplir con los requerimientos establecidos por la empresa CBI Group para obtener nuestro número de proveedor. El sitio web que desarrollaron no solo superó nuestras expectativas, sino que también facilitó el proceso y la presentación de nuestra empresa."
         }
+      },
+      "button": {
+        "text": "Ver portafolio completo",
+        "aria_label": "Ver nuestro portfaolio de proyectos de desarollo web que hemos hecho para negocios pequeños, pymes y emprendedores"
       }
     },
     "team": {
