@@ -293,9 +293,17 @@ export default function Home() {
                 {t("about.title")}
               </h2>
               <div className="border-primary mt-1.5 w-36 border-t-2 pb-6"></div>
-              <p className="pb-3 text-base whitespace-pre-line lg:text-2xl">
+              <p className="pb-6 text-base whitespace-pre-line lg:text-2xl">
                 {t("about.body")}
               </p>
+
+              <Button
+                size="lg"
+                className="rounded-sm px-8 py-6 text-lg uppercase"
+                asChild
+              >
+                <Link href="/about-us" aria-label={t("about.button.aria_label")}>{t("about.button.text")}</Link>
+              </Button>
 
               <div className="absolute top-24 h-48 w-full max-w-sm self-center lg:hidden">
                 <Image
