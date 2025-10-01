@@ -302,7 +302,12 @@ export default function Home() {
                 className="rounded-sm px-8 py-6 text-lg uppercase"
                 asChild
               >
-                <Link href="/about-us" aria-label={t("about.button.aria_label")}>{t("about.button.text")}</Link>
+                <Link
+                  href="/about-us"
+                  aria-label={t("about.button.aria_label")}
+                >
+                  {t("about.button.text")}
+                </Link>
               </Button>
 
               <div className="absolute top-24 h-48 w-full max-w-sm self-center lg:hidden">
@@ -350,14 +355,15 @@ export default function Home() {
             ))}
           </div>
 
-              <Button
-                size="lg"
-                className="rounded-sm px-8 py-6 text-lg uppercase"
-                asChild
-              >
-                <Link href="/services" aria-label={t("services.button.aria_label")}>{t("services.button.text")}</Link>
-              </Button>
-
+          <Button
+            size="lg"
+            className="rounded-sm px-8 py-6 text-lg uppercase"
+            asChild
+          >
+            <Link href="/services" aria-label={t("services.button.aria_label")}>
+              {t("services.button.text")}
+            </Link>
+          </Button>
         </PageSectionWrapper>
 
         {/* Tech Stack */}
@@ -391,13 +397,15 @@ export default function Home() {
           altBackground
         >
           <ProjectCarousel items={localizedProjects} />
-              <Button
-                size="lg"
-                className="rounded-sm px-8 py-6 text-lg uppercase"
-                asChild
-              >
-                <Link href="/portfolio" aria-label={t("clients.button.aria_label")}>{t("clients.button.text")}</Link>
-              </Button>
+          <Button
+            size="lg"
+            className="rounded-sm px-8 py-6 text-lg uppercase"
+            asChild
+          >
+            <Link href="/portfolio" aria-label={t("clients.button.aria_label")}>
+              {t("clients.button.text")}
+            </Link>
+          </Button>
         </PageSectionWrapper>
 
         {/* Our team */}
