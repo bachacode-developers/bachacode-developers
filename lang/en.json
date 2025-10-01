@@ -104,6 +104,10 @@
             "user_experience": "User Experience"
           }
         }
+      },
+      "button": {
+        "text": "See more services",
+        "aria_label": "See more web development services for small businesses and entrepreneurs"
       }
     },
     "technologies": {

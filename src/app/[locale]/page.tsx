@@ -349,6 +349,15 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+              <Button
+                size="lg"
+                className="rounded-sm px-8 py-6 text-lg uppercase"
+                asChild
+              >
+                <Link href="/services" aria-label={t("services.button.aria_label")}>{t("services.button.text")}</Link>
+              </Button>
+
         </PageSectionWrapper>
 
         {/* Tech Stack */}

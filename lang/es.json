@@ -104,6 +104,10 @@
             "user_experience": "Mejora de UI/UX"
           }
         }
+      },
+      "button": {
+        "text": "Ver más servicios",
+        "aria_label": "Ver más servicios de desarollo web para negocios pequeños, pymes y emprendedores"
       }
     },
     "technologies": {
