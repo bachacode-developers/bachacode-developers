@@ -1,7 +1,14 @@
 import Image from "next/image";
 import ServiceCard, { Service } from "@/components/cards/ServiceCard";
-import TestimonialCard from "@/components/cards/TestimonialCard";
-import { faWordpress } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGolang,
+  faJs,
+  faLaravel,
+  faPhp,
+  faReact,
+  faVuejs,
+  faWordpress,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
   faComments,
@@ -13,7 +20,9 @@ import {
   faWind,
   faWindowRestore,
 } from "@fortawesome/free-solid-svg-icons";
-import TechCarousel from "@/components/sections/TechCarousel";
+import TechCarousel, {
+  TechCarouselItem,
+} from "@/components/sections/TechCarousel";
 import Heading from "@/components/common/Heading";
 import TeamCard from "@/components/cards/TeamCard";
 import OfferingCard from "@/components/cards/OfferingCard";
@@ -30,7 +39,8 @@ import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { StructuredData } from "@/components/layout/StructuredData";
 import { generateWebPageSchema } from "@/lib/generateWebPageSchema";
-// import { generateWebPageSchema } from "@/lib/generateWebPageSchema";
+import ProjectCarousel from "./(homepage)/ProjectCarousel";
+import projects from "./portfolio/projects";
 
 export async function generateMetadata({
   params,
@@ -169,6 +179,45 @@ export default function Home() {
     },
   ];
 
+  const techs: TechCarouselItem[] = [
+    {
+      icon: faLaravel,
+      title: "Laravel",
+      className: "group-hover:text-red-600",
+    },
+    {
+      icon: faReact,
+      title: "React.Js",
+      className: "group-hover:text-blue-500",
+    },
+    {
+      icon: faVuejs,
+      title: "Vue.Js",
+      className: "group-hover:text-emerald-500",
+    },
+    {
+      icon: faWordpress,
+      title: "WordPress",
+      className: "group-hover:text-blue-500",
+    },
+    {
+      icon: faJs,
+      title: "JavaScript",
+      className: "group-hover:text-yellow-500",
+    },
+    {
+      icon: faPhp,
+      title: "PHP",
+      className: "group-hover:text-indigo-500",
+    },
+    {
+      icon: faGolang,
+      title: "Golang",
+      className: "group-hover:text-teal-blue-accent-500",
+    },
+  ];
+
+  const localizedProjects = projects.get(locale || "en") || [];
   return (
     <StructuredData schemas={[webpageSchema]}>
       <main className="w-full">
@@ -244,9 +293,22 @@ export default function Home() {
                 {t("about.title")}
               </h2>
               <div className="border-primary mt-1.5 w-36 border-t-2 pb-6"></div>
-              <p className="pb-3 text-base whitespace-pre-line lg:text-2xl">
+              <p className="pb-6 text-base whitespace-pre-line lg:text-2xl">
                 {t("about.body")}
               </p>
+
+              <Button
+                size="lg"
+                className="rounded-sm px-8 py-6 text-lg uppercase"
+                asChild
+              >
+                <Link
+                  href="/about-us"
+                  aria-label={t("about.button.aria_label")}
+                >
+                  {t("about.button.text")}
+                </Link>
+              </Button>
 
               <div className="absolute top-24 h-48 w-full max-w-sm self-center lg:hidden">
                 <Image
@@ -292,6 +354,16 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          <Button
+            size="lg"
+            className="rounded-sm px-8 py-6 text-lg uppercase"
+            asChild
+          >
+            <Link href="/services" aria-label={t("services.button.aria_label")}>
+              {t("services.button.text")}
+            </Link>
+          </Button>
         </PageSectionWrapper>
 
         {/* Tech Stack */}
@@ -305,11 +377,12 @@ export default function Home() {
           />
 
           <div className="flex w-full flex-col items-center">
-            <TechCarousel />
+            <TechCarousel items={techs} shuffle />
             <TechCarousel
               directionAS="backward"
               directionOpt="ltr"
-              carouselIndex={3}
+              items={techs}
+              shuffle
             />
           </div>
         </div>
@@ -323,19 +396,16 @@ export default function Home() {
           subtitle={t("clients.subtitle")}
           altBackground
         >
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            <TestimonialCard
-              name={t("clients.testimonies.tailor.name")}
-              profession={t("clients.testimonies.tailor.occupation")}
-              testimony={t("clients.testimonies.tailor.body")}
-            />
-
-            <TestimonialCard
-              name={t("clients.testimonies.mesgo.name")}
-              profession={t("clients.testimonies.mesgo.occupation")}
-              testimony={t("clients.testimonies.mesgo.body")}
-            />
-          </div>
+          <ProjectCarousel items={localizedProjects} />
+          <Button
+            size="lg"
+            className="rounded-sm px-8 py-6 text-lg uppercase"
+            asChild
+          >
+            <Link href="/portfolio" aria-label={t("clients.button.aria_label")}>
+              {t("clients.button.text")}
+            </Link>
+          </Button>
         </PageSectionWrapper>
 
         {/* Our team */}

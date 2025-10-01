@@ -24,18 +24,22 @@
   },
   "home": {
     "metadata": {
-      "title": "Web Development & Consulting",
-      "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      "title": "Custom Websites & Web Apps for Small Businesses",
+      "description": "We build affordable, professional websites for small businesses. WordPress, simple apps, or custom sites — everything you need to grow online fast."
     },
     "hero": {
       "title": "We build amazing <websites>websites</websites> for small businesses",
-      "subtitle": "with us your new project will become a reality",
+      "subtitle": "With us you can build a modern website at an affordable price",
       "primary_button": "Start your project",
       "secondary_button": "View our work"
     },
     "about": {
-      "title": "Connecting the Future: Our Story in the World of Technology.",
-      "body": "We are a team of web development experts dedicated to creating custom digital solutions that fit your needs, budget and technical knowledge. We specialize in delivering accessible and functional web applications, either developing sites from scratch or improving existing projects.\n\nWe take care of bringing your next online project to life, making sure every detail is aligned with your goals and vision."
+      "title": "How we help small businesses and entrepreneurs get an affordable website",
+      "body": "We are a team of experienced web developers helping small businesses, startups and entrepreneurs to create corporate websites, web apps, wordpress websites and any custom digital solution that fit your needs. From creating a website for your business to improving an existing one, we handle domains, hosting, designs, and all technical stuff so you don't have to!\n\nWhether you need a one-page site, a personal brand presence, or a custom solution, we deliver affordable business websites that look professional, work fast, and grow with you.\n\nNo coding required — just your ideas and our expertise to bring your next online project to life.",
+      "button": {
+        "text": "Learn more",
+        "aria_label": "Learn more about Bachacode Developers"
+      }
     },
     "counter": {
       "projects": "Completed projects",
@@ -43,21 +47,21 @@
       "experience": "Years of experience"
     },
     "services": {
-      "title": "what do we <keyword>offer</keyword> you?",
+      "title": "What do we <keyword>offer</keyword> to your business?",
       "subtitle": "Services accessible to all our customers",
       "cards": {
         "static": {
           "title": "Static Websites",
-          "body": "Custom website development with static content, ideal for small projects that do not require frequent updates, such as landing pages, portfolios or catalogs. These sites offer speed, security and efficiency for stable content.",
+          "body": "Custom websites with static content, ideal for small companies and entrepreneurs that wants to make a simple website like a corporate website or an static portfolio. These sites are affordable, fast and efficient for stable content that doesn't change often.",
           "features": {
             "affordable": "Affordable",
-            "lightning_fast": "Lightning Fast",
+            "lightning_fast": "Fast Loading",
             "short_delivery": "Short Delivery Time"
           }
         },
         "wordpress": {
           "title": "WordPress Websites",
-          "body": "Website development with WordPress, providing full control of the content without the need to touch code. Ideal for medium-sized projects such as blogs, portfolios or corporate sites, offering flexibility, scalability and easy customization.",
+          "body": "Website development with WordPress, providing full control of the content without having to touch code. Ideal for medium-sized projects such as blogs, dynamic portfolios or product catalogs, offering flexibility and easy customization for businesses and entrepreneurs.",
           "features": {
             "custom_themes": "Custom Themes",
             "custom_plugins": "Custom Plugins",
@@ -75,16 +79,16 @@
         },
         "consulting": {
           "title": "Web Consulting",
-          "body": "If you want to add new functionalities or update your current project, we'll take care of planning the entire process for you. From time estimation to budget creation, we'll offer solutions using the technologies we know best, guaranteeing an efficient development according to your needs.",
+          "body": "If you own a small business or are an entrepreneur looking to add new features or update your website, we’ll plan the whole process for you. From time estimates to budget planning, we provide you a clear path to improve your business engagement, delivering affordable and efficient plans that fits your business needs.",
           "features": {
-            "strategic": "Strategic",
+            "strategic": "Planning",
             "best_practices": "Best Practices",
             "growth_focus": "Growth Focus"
           }
         },
         "support": {
           "title": "Web Support",
-          "body": "When it comes to your existing project, we can help you with web support and correct any errors you find. We'll plan out the whole process, offering solutions in the technologies we know best to ensure the development is efficient and meets your specific needs.",
+          "body": "If your website needs fixes or updates, our web support service keeps everything running smoothly. We correct errors, update content, handle plugins and hosting issues, and make sure your site stays secure and fast. With clear solutions and reliable support, you can focus on your business while we take care of the technical side.",
           "features": {
             "support_time": "24/7 Support",
             "regular_updates": "Regular Updates",
@@ -93,22 +97,26 @@
         },
         "optimization": {
           "title": "Website Optimization",
-          "body": "When it comes to your existing project, we can help you with web support and correct any errors you find. We'll plan out the whole process, offering solutions in the technologies we know best to ensure the development is efficient and meets your specific needs.",
+          "body": "Our web optimization service makes your website faster, easier to use, and more visible online. We improve loading speed, mobile experience, and basic SEO so customers can find you quickly and enjoy browsing your site. With a smoother, more professional website, you’ll attract more visitors and turn them into clients.",
           "features": {
             "speed_boost": "Speed Boost",
             "seo_improvement": "SEO Improvement",
             "user_experience": "User Experience"
           }
         }
+      },
+      "button": {
+        "text": "See more services",
+        "aria_label": "See more web development services for small businesses and entrepreneurs"
       }
     },
     "technologies": {
-      "title": "Our <keyword>technologies</keyword>",
+      "title": "Technologies we use to make engaging <keyword>websites</keyword>",
       "subtitle": "We are experts in state-of-the-art web development technology"
     },
     "clients": {
-      "title": "Our <keyword>Clients</keyword>",
-      "subtitle": "Those who have placed their trust in us",
+      "title": "<keyword>Websites</keyword> we have worked in",
+      "subtitle": "Our biggest projects that we have build or improved",
       "testimonies": {
         "tailor": {
           "name": "Guillermo Saez",
@@ -120,27 +128,31 @@
           "occupation": "CEO of MESGO",
           "body": "Thanks to Bachacode Developers we were able to meet the requirements established by CBI Group to obtain our supplier number. The website they developed not only exceeded our expectations, but also facilitated the process and the presentation of our company."
         }
+      },
+      "button": {
+        "text": "See our portfolio",
+        "aria_label": "See our portfolio of web development projects we have done for small businesses and entrepreneurs"
       }
     },
     "team": {
-      "title": "We <keyword>guarantee</keyword>",
-      "subtitle": "What you will get by working with us",
+      "title": "What we <keyword>guarantee</keyword> to your business",
+      "subtitle": "What benefits your business will get working with us",
       "cards": {
         "development": {
-          "title": "Agile development",
-          "body": "With us, agile development means fast adaptation to your needs and constant results. We guarantee efficiency and precise adjustment to what you really need in your project."
+          "title": "Agile Web Development for Small Businesses",
+          "body": "Our agile web development for small businesses delivers fast, custom websites tailored to entrepreneurs' needs, ensuring efficiency and scalability."
         },
         "communication": {
-          "title": "Communication",
-          "body": "In our approach, communication is fundamental. We keep channels open for constant and clear interaction with you. We listen to your needs and keep you informed at all times, ensuring that your vision is faithfully reflected in the final project."
+          "title": "Clear Communication in Website Development Projects",
+          "body": "We prioritize transparent communication in website development, keeping entrepreneurs informed to ensure your small business website aligns perfectly with your vision."
         },
         "prices": {
-          "title": "Adjustable prices",
-          "body": "We offer flexible pricing to fit your budget without compromising quality. We work together to find the best solution that fits your economic needs."
+          "title": "Affordable Web Development Pricing for Entrepreneurs",
+          "body": "Our affordable web development services offer flexible pricing for small businesses, delivering high-quality websites that fit your budget and drive growth."
         },
         "flexible": {
-          "title": "Flexible features",
-          "body": "Our projects are distinguished by their flexibility, adjusting to your evolving needs. Each feature is customizable to ensure your full satisfaction, allowing you to modify the project according to your changing requirements throughout the development until it goes online."
+          "title": "Flexible Website Features for Growing Small Businesses",
+          "body": "Customizable website features adapt to your small business needs, ensuring entrepreneurs get flexible, scalable web development solutions until launch."
         }
       },
       "members": {
@@ -444,8 +456,8 @@
     }
   },
   "contact_section": {
-    "body": "We believe in making possible any project our clients have in mind, are you interested in building your online presence? <keyword>Work with us.</keyword>",
-    "button": "Contact us"
+    "body": "Ready to launch your business website? Our web development services for small business and create affordable, custom sites for entrepreneurs. <keyword>Work with us today.</keyword>",
+    "button": "Contact Us"
   },
   "project_card": {
     "button": "View website"
