@@ -461,5 +461,20 @@
   },
   "project_card": {
     "button": "Ver sitio web"
+  },
+  "legal": {
+    "terms": {
+      "metadata": {
+        "title": "Términos y Condiciones",
+        "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
+      },
+      "page": {
+        "title": "Términos y Condiciones",
+        "identity": {
+          "title": "Identificación del titular",
+          "body": "Los presentes <strong>Términos y Condiciones</strong> regularán la compra y venta de los servicios que <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (en adelante, el “<strong>Titular</strong>”), domiciliado en Venezuela y con correo electrónico <email>hola@bachacode.com</email>, comercializa a través del sitio <website>https://bachacode.com</website> (en adelante, el “<strong>Sitio Web</strong>”)."
+        }
+      }
+    }
   }
 }
