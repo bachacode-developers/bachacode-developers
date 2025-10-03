@@ -1,6 +1,45 @@
-import { useTranslations } from "next-intl";
+import { hasLocale, useTranslations } from "next-intl";
 import LegalSection from "../LegalSection";
 import { StructuredData } from "@/components/layout/StructuredData";
+import { Metadata } from "next";
+import { getPathname } from "@/i18n/navigation";
+import { routing } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  const defaultPath = "/legal/terms";
+  const pathname = getPathname({
+    href: defaultPath,
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+  });
+
+  const t = await getTranslations({
+    locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
+    namespace: "legal.terms.metadata",
+  });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    alternates: {
+      canonical: pathname,
+      languages: {
+        en: getPathname({ href: defaultPath, locale: "en" }),
+        es: getPathname({ href: defaultPath, locale: "es" }),
+        "x-default": getPathname({
+          href: defaultPath,
+          locale: routing.defaultLocale,
+        }),
+      },
+    },
+  };
+}
 
 export default function Terms() {
   const t = useTranslations("legal.terms");
