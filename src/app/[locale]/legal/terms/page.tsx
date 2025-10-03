@@ -50,6 +50,21 @@ export default function Terms() {
             })}
           </p>
         </section>
+        <section className="pb-8">
+          <h2 className="py-3 text-2xl font-semibold">
+            {t("page.purpose.title")}
+          </h2>
+          <p>
+            {t.rich("page.purpose.body", {
+              list: (chunks) => (
+                <ul className="list-inside list-disc space-y-1">{chunks}</ul>
+              ),
+              li: (chunks) => <li className="list-item">{chunks}</li>,
+              strong: (chunks) => <strong>{chunks}</strong>,
+              br: () => <br></br>,
+            })}
+          </p>
+        </section>
       </main>
     </StructuredData>
   );

@@ -477,6 +477,10 @@
         "acceptance": {
           "title": "Aceptación de los Términos y Condiciones",
           "body": "Al utilizar los servicios del <strong>Sitio Web</strong>, el usuario (en adelante, el “<strong>Usuario</strong>” o los “<strong>Usuarios</strong>”) acepta los presentes Términos y Condiciones, los cuales definen los derechos y obligaciones del <strong>Propietario</strong> y del <strong>Usuario</strong> en relación con la relación profesional que pueda surgir del uso de los servicios accesibles a través del <strong>Sitio Web</strong>. Estos son los únicos Términos y Condiciones aplicables al uso del <strong>Sitio Web</strong> (sin perjuicio de que ciertos servicios puedan estar sujetos a condiciones adicionales) y a la contratación de servicios tales como consultas, gestión de proyectos, desarrollo de proyectos u otras actividades relacionadas ofrecidas por el <strong>Propietario</strong>. Estos Términos y Condiciones sustituyen a cualquier otra condición.<br></br>El uso del <strong>Sitio Web</strong> y de los servicios ofrecidos a través de este está prohibido para personas menores de 18 años. En caso de determinarse que un menor está utilizando el <strong>Sitio Web</strong> o intentando acceder a los servicios, el <strong>Propietario</strong> procederá de inmediato a restringir o denegar dicho acceso."
+        },
+        "purpose": {
+          "title": "Objeto",
+          "body": "El <strong>Sitio Web</strong> ofrece servicios profesionales de desarrollo y consultoría web, incluyendo, pero no limitándose a:<br></br><br></br><list><li>Sitios web estáticos personalizados</li><li>Sitios web basados en WordPress</li><li>Aplicaciones web personalizadas</li><li>Consultoría web y planificación estratégica</li><li>Soporte y mantenimiento web</li><li>Optimización de sitios web (SEO, rendimiento y experiencia de usuario)</li></list><br></br>El objeto de las presentes condiciones generales es regular la prestación de dichos Servicios a los <strong>Usuarios</strong>."
         }
       }
     }

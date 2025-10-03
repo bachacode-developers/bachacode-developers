@@ -477,6 +477,10 @@
         "acceptance": {
           "title": "Acceptance of the Terms and Conditions",
           "body": "By using the services of the <strong>Website</strong>, the user (hereinafter referred to as the “<strong>User</strong>” or “<strong>Users</strong>”) accepts these Terms and Conditions, which define the rights and obligations of the <strong>Owner</strong> and the <strong>User</strong> in relation to the professional relationship that may arise from the use of the services accessible through the <strong>Website</strong>. These are the only Terms and Conditions applicable to the use of the <strong>Website</strong> (without prejudice to the fact that certain services may be subject to additional terms) and to the engagement of services such as consultations, project management, project development, or related activities offered by the <strong>Owner</strong>. These Terms and Conditions supersede any other conditions.<br></br>The use of the <strong>Website</strong> and the services offered through it is prohibited for persons under 18 years of age. If it is determined that a minor is using the <strong>Website</strong> or attempting to engage with the services, the <strong>Owner</strong> will immediately restrict or deny such access."
+        },
+        "purpose": {
+          "title": "Purpose",
+          "body": "The <strong>Website</strong> offers professional web development and consulting services, including but not limited to:<br></br><br></br><list><li>Custom static websites</li><li>WordPress-based websites</li><li>Custom web applications</li><li>Web consulting and strategic planning</li><li>Web support and maintenance</li><li>Website optimization (SEO, performance, and user experience)</li></list><br></br>The purpose of these general conditions is to regulate the provision of these Services to the <strong>Users</strong>."
         }
       }
     }
