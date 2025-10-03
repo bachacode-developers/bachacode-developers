@@ -519,6 +519,67 @@
           "body": "These <strong>Terms and Conditions</strong> shall be governed and interpreted in accordance with the laws of the jurisdiction in which the <strong>Owner</strong> is legally established, without regard to its conflict of law provisions. In the event of any dispute, the parties expressly submit to the competent courts of that jurisdiction, unless otherwise provided by applicable mandatory law."
         }
       }
+    },
+    "privacy": {
+      "metadata": {
+        "title": "Privacy Policy",
+        "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "privacy_policy": {
+          "title": "Privacy Policy",
+          "body": "Your privacy is important to us. In this <strong>Privacy Policy</strong> we explain what personal data we collect from <strong>Users</strong> and how we use it. We encourage you to read these terms carefully before providing any personal data through this <strong>Website</strong> or through contact forms.<br></br>The use of the <strong>Website</strong> and the services offered through it is prohibited for persons under 18 years of age without the consent of their parents or legal guardians. If you are under 18 and have accessed this <strong>Website</strong> without such consent, you must not provide personal data.<br></br>On this <strong>Website</strong> we respect and protect the personal data of <strong>Users</strong>. As a <strong>User</strong> you should know that your rights are guaranteed.<br></br>We have worked to create a safe and reliable space, and therefore we want to share our privacy principles:<list><li>We never share personal information of our <strong>Users</strong> with anyone, except to comply with the law or when we have your express authorization.</li><li>We never use your personal data for any purpose other than those described in this <strong>Privacy Policy</strong>.</li></list>"
+        },
+        "data_controller": {
+          "title": "Data Controller",
+          "body": "The controller responsible for the processing of personal data is <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (hereinafter, the “<strong>Owner</strong>”), a resident of Venezuela, who can be contacted at <email>hola@bachacode.com</email>. The <strong>Owner</strong> offers web development and consulting services through the <homepage>Website</homepage>."
+        },
+        "purposes_legal_basis": {
+          "title": "Purposes and Legal Bases of Processing",
+          "body": "The personal data collected is used for the following purposes:<list><li>Responding to inquiries through contact forms (legal basis: legitimate interest).</li><li>Provision of contracted services such as consultations, project management, or web development (legal basis: performance of a contract).</li><li>Statistical analysis and improvement of the <strong>Website</strong> (legal basis: consent through cookies).</li></list>With respect to <strong>User</strong> consent to the processing of personal data, the <strong>User</strong> may withdraw consent at any time by sending an email to the address provided above, without affecting the lawfulness of processing based on consent prior to its withdrawal."
+        },
+        "data_types": {
+          "title": "Types of Data Collected",
+          "body": "The following categories of personal data may be collected:<list><li><strong>Identification data</strong>: Name, surname, email address, IP address.</li><li><strong>Browsing data</strong>: Cookies (see our <link>Cookie Policy</link>).</li></list>"
+        },
+        "data_retention": {
+          "title": "Data Retention",
+          "body": "Personal data will be retained under the following conditions:<list><li><strong>Contact requests and communications</strong>: Until the <strong>User</strong> requests their deletion.</li><li><strong>Invoices and legal documents</strong>: 6 years (to comply with tax obligations under applicable law).</li></list>"
+        },
+        "data_recipients": {
+          "title": "Recipients of Data",
+          "body": "The personal data provided by <strong>Users</strong> may be shared with the following entities:<list><li>The <strong>Owner</strong> of the <strong>Website</strong>.</li><li><strong>External service providers</strong>: Hosting services, cloud platforms (e.g., AWS, Vercel), email communication tools, and analytical tools (e.g., Google Analytics).</li><li><strong>Legal obligations</strong>: Data may be disclosed to competent authorities if required by law.</li></list>"
+        },
+        "user_rights": {
+          "title": "User Rights Regarding Personal Data",
+          "body": "In accordance with applicable data protection regulations, <strong>Users</strong> may exercise the following rights:<list><li><strong>Access, rectification, or deletion</strong> of their personal data.</li><li><strong>Restriction or objection</strong> to processing.</li><li><strong>Data portability</strong>.</li><li><strong>Withdrawal of consent</strong> at any time.</li><li><strong>Right to be forgotten</strong>.</li></list>To exercise these rights, <strong>Users</strong> may send a request to <email>hola@bachacode.com</email>.<br></br>The maximum response period is <strong>1 month</strong>."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "body": "This <strong>Website</strong> uses both first-party and third-party cookies. For more information, please consult our <link>Cookie Policy</link>."
+        },
+        "data_security": {
+          "title": "Data Security",
+          "body": "The protection of the privacy and personal data of <strong>Users</strong> is a priority for the <strong>Owner</strong>. The <strong>Owner</strong> takes all reasonable measures to prevent misuse of personal data and restricts access only to authorized personnel.<br></br>The <strong>Owner</strong> maintains appropriate levels of security in accordance with applicable regulations and has implemented technical measures to prevent loss, misuse, alteration, unauthorized access, and theft of the data provided by <strong>Users</strong> through the <strong>Website</strong>. However, <strong>Users</strong> are advised that no security measures on the Internet are completely infallible.<br></br>The <strong>Owner</strong> undertakes to maintain confidentiality and secrecy regarding personal data in accordance with applicable law."
+        },
+        "policy_modifications": {
+          "title": "Modifications to the Privacy Policy",
+          "body": "The <strong>Owner</strong> reserves the right to revise this <strong>Privacy Policy</strong> whenever deemed appropriate, in which case <strong>Users</strong> will be informed. Nevertheless, we recommend that you check this <strong>Privacy Policy</strong> regularly in order to review the most recent version."
+        },
+        "third_party_links": {
+          "title": "Links to Third-Party Websites",
+          "body": "The <strong>Website</strong> may contain links to websites of third-party companies or entities.<br></br>The <strong>Owner</strong> cannot be held responsible for the way these companies handle privacy and personal data protection. Therefore, we recommend that you carefully read the <strong>Privacy Policies</strong> of any such websites not owned by the <strong>Owner</strong> regarding their use, processing, and protection of personal data.<br></br>The terms and conditions offered by these third-party websites may differ from those provided by the <strong>Owner</strong>."
+        },
+        "policy_questions": {
+          "title": "Questions About the Privacy Policy",
+          "body": "If you have any questions regarding this <strong>Privacy Policy</strong> or the processing of your personal data, please contact the <strong>Owner</strong> by email at <email>hola@bachacode.com</email>.<br></br>If you believe that your rights have not been properly safeguarded, you have the right to file a complaint with the competent data protection authority in your place of residence."
+        },
+        "acceptance_consent": {
+          "title": "Acceptance and Consent",
+          "body": "The <strong>User</strong> declares that they have been informed of the conditions regarding the protection of personal data, accepting and consenting to the processing of such data by the <strong>Owner</strong>, in the manner and for the purposes indicated in this <strong>Privacy Policy</strong>."
+        }
+      }
     }
   }
 }

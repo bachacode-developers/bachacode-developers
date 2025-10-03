@@ -519,6 +519,67 @@
           "body": "Los presentes <strong>Términos y Condiciones</strong> se regirán e interpretarán de conformidad con las leyes de la jurisdicción en la que el <strong>Propietario</strong> se encuentre legalmente constituido, sin perjuicio de las normas de conflicto de leyes que pudieran resultar aplicables. En caso de controversia, las partes se someten expresamente a los tribunales competentes de dicha jurisdicción, salvo que la normativa imperativa aplicable disponga lo contrario."
         }
       }
+    },
+    "privacy": {
+      "metadata": {
+        "title": "Política de Privacidad",
+        "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
+      },
+      "page": {
+        "title": "Política de Privacidad",
+        "privacy_policy": {
+          "title": "Política de Privacidad",
+          "body": "Tu privacidad es importante para nosotros. En esta <strong>Política de Privacidad</strong> explicamos qué datos personales recopilamos de los <strong>Usuarios</strong> y cómo los utilizamos. Te recomendamos leer detenidamente estos términos antes de facilitar cualquier dato personal a través de este <strong>Sitio Web</strong> o mediante formularios de contacto.<br></br>El uso del <strong>Sitio Web</strong> y de los servicios ofrecidos a través de este está prohibido para personas menores de 18 años sin el consentimiento de sus padres o tutores legales. Si eres menor de 18 años y has accedido a este <strong>Sitio Web</strong> sin dicho consentimiento, no debes proporcionar datos personales.<br></br>En este <strong>Sitio Web</strong> respetamos y protegemos los datos personales de los <strong>Usuarios</strong>. Como <strong>Usuario</strong> debes saber que tus derechos están garantizados.<br></br>Nos hemos esforzado en crear un espacio seguro y confiable y por ello queremos compartir nuestros principios respecto a tu privacidad:<list><li>Nunca compartimos información personal de los <strong>Usuarios</strong> con nadie, salvo para cumplir con la ley o cuando contemos con tu autorización expresa.</li><li>Nunca utilizaremos tus datos personales con una finalidad distinta a la expresada en esta <strong>Política de Privacidad</strong>.</li></list>"
+        },
+        "data_controller": {
+          "title": "Responsable del Tratamiento",
+          "body": "El responsable del tratamiento de los datos personales es <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (en adelante, el “<strong>Propietario</strong>”), residente en Venezuela y con correo electrónico <email>hola@bachacode.com</email>. El <strong>Propietario</strong> ofrece servicios de desarrollo y consultoría web a través del <homepage>Sitio Web</homepage>."
+        },
+        "purposes_legal_basis": {
+          "title": "Finalidades y Bases Legales del Tratamiento",
+          "body": "Los datos personales recopilados se utilizan para las siguientes finalidades:<list><li>Responder consultas a través de formularios de contacto (base legal: interés legítimo).</li><li>Prestación de servicios contratados, tales como consultas, gestión de proyectos o desarrollo web (base legal: ejecución de contrato).</li><li>Análisis estadístico y mejora del <strong>Sitio Web</strong> (base legal: consentimiento a través de cookies).</li></list>Con respecto al consentimiento de los <strong>Usuarios</strong> para el tratamiento de sus datos personales, el <strong>Usuario</strong> podrá retirar dicho consentimiento en cualquier momento enviando un correo electrónico a la dirección previamente indicada, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada."
+        },
+        "data_types": {
+          "title": "Tipos de Datos Recogidos",
+          "body": "Se podrán recopilar las siguientes categorías de datos personales:<list><li><strong>Datos identificativos</strong>: Nombre, apellidos, dirección de correo electrónico, dirección IP.</li><li><strong>Datos de navegación</strong>: Cookies (consulte nuestra <link>Política de Cookies</link>).</li></list>"
+        },
+        "data_retention": {
+          "title": "Conservación de Datos",
+          "body": "Los datos personales se conservarán bajo las siguientes condiciones:<list><li><strong>Solicitudes de contacto y comunicaciones</strong>: Hasta que el <strong>Usuario</strong> solicite su eliminación.</li><li><strong>Facturas y documentos legales</strong>: 6 años (para cumplir con obligaciones fiscales conforme a la normativa aplicable).</li></list>"
+        },
+        "data_recipients": {
+          "title": "Destinatarios de los Datos",
+          "body": "Los datos personales facilitados por los <strong>Usuarios</strong> podrán ser compartidos con los siguientes entes:<list><li>El <strong>Propietario</strong> del <strong>Sitio Web</strong>.</li><li><strong>Proveedores de servicios externos</strong>: Servicios de hosting, plataformas en la nube (por ejemplo, AWS, Vercel), herramientas de comunicación por correo electrónico y herramientas de análisis (por ejemplo, Google Analytics).</li><li><strong>Obligaciones legales</strong>: Los datos podrán ser comunicados a las autoridades competentes si así lo requiere la ley.</li></list>"
+        },
+        "user_rights": {
+          "title": "Derechos del Usuario en Relación con sus Datos",
+          "body": "De acuerdo con la normativa aplicable en materia de protección de datos, los <strong>Usuarios</strong> podrán ejercer los siguientes derechos:<list><li><strong>Acceso, rectificación o supresión</strong> de sus datos personales.</li><li><strong>Limitación u oposición</strong> al tratamiento.</li><li><strong>Portabilidad</strong> de los datos.</li><li><strong>Retirada del consentimiento</strong> en cualquier momento.</li><li><strong>Derecho al olvido</strong> de sus datos.</li></list>Para ejercer estos derechos, los <strong>Usuarios</strong> podrán enviar una solicitud a <email>hola@bachacode.com</email>.<br></br>El plazo máximo de respuesta es de <strong>1 mes</strong>."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "body": "Este <strong>Sitio Web</strong> utiliza cookies propias y de terceros. Para más información, consulte nuestra <link>Política de Cookies</link>."
+        },
+        "data_security": {
+          "title": "Seguridad de los Datos",
+          "body": "La protección de la privacidad y de los datos personales de los <strong>Usuarios</strong> es una prioridad para el <strong>Propietario</strong>. El <strong>Propietario</strong> adopta todas las medidas razonables para evitar un uso indebido de los datos personales y limita el acceso únicamente al personal autorizado.<br></br>El <strong>Propietario</strong> mantiene niveles de seguridad adecuados de conformidad con la normativa aplicable y ha implementado medidas técnicas para evitar la pérdida, mal uso, alteración, acceso no autorizado y robo de los datos facilitados por los <strong>Usuarios</strong> a través del <strong>Sitio Web</strong>. No obstante, se informa a los <strong>Usuarios</strong> de que ninguna medida de seguridad en Internet es completamente infalible.<br></br>El <strong>Propietario</strong> se compromete a cumplir con el deber de secreto y confidencialidad respecto de los datos personales conforme a la legislación aplicable."
+        },
+        "policy_modifications": {
+          "title": "Modificaciones de la Política de Privacidad",
+          "body": "El <strong>Propietario</strong> se reserva el derecho de revisar la presente <strong>Política de Privacidad</strong> en cualquier momento que lo considere oportuno, en cuyo caso se comunicará a los <strong>Usuarios</strong>. No obstante, le recomendamos que consulte periódicamente esta <strong>Política de Privacidad</strong> para conocer la versión más reciente."
+        },
+        "third_party_links": {
+          "title": "Enlaces a Sitios Web de Terceros",
+          "body": "El <strong>Sitio Web</strong> puede contener enlaces a páginas web de compañías o entidades de terceros.<br></br>El <strong>Propietario</strong> no puede hacerse responsable de la manera en que dichas compañías traten la privacidad y la protección de los datos personales. Por ello, le aconsejamos leer detenidamente las <strong>Políticas de Privacidad</strong> de aquellos sitios web que no son propiedad del <strong>Propietario</strong>, en relación con el uso, tratamiento y protección de los datos personales.<br></br>Las condiciones ofrecidas por estos sitios web de terceros pueden diferir de las establecidas por el <strong>Propietario</strong>."
+        },
+        "policy_questions": {
+          "title": "Preguntas sobre la Política de Privacidad",
+          "body": "Si tiene alguna pregunta en relación con la presente <strong>Política de Privacidad</strong> o con el tratamiento de sus datos personales, le rogamos que se ponga en contacto con el <strong>Propietario</strong> mediante correo electrónico a la dirección <email>hola@bachacode.com</email>.<br></br>Asimismo, si considera que sus derechos no han sido debidamente salvaguardados, tiene derecho a presentar una reclamación ante la autoridad de protección de datos competente en su lugar de residencia."
+        },
+        "acceptance_consent": {
+          "title": "Aceptación y Consentimiento",
+          "body": "El <strong>Usuario</strong> declara haber sido informado acerca de las condiciones relativas a la protección de datos personales, aceptando y consintiendo el tratamiento de los mismos por parte del <strong>Propietario</strong>, en la forma y para las finalidades indicadas en la presente <strong>Política de Privacidad</strong>."
+        }
+      }
     }
   }
 }
