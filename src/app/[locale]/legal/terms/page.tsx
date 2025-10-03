@@ -1,70 +1,158 @@
-import { StructuredData } from "@/components/layout/StructuredData";
 import { useTranslations } from "next-intl";
+import LegalSection from "../LegalSection";
+import { StructuredData } from "@/components/layout/StructuredData";
 
 export default function Terms() {
   const t = useTranslations("legal.terms");
+
+  const br = () => (
+    <>
+      <br />
+      <br />
+    </>
+  );
+
   return (
     <StructuredData schemas={[]}>
-      <main className="container px-12">
+      <main className="container px-4 sm:px-6 lg:px-12">
         <h1 className="py-6 text-4xl font-bold">{t("page.title")}</h1>
-        <section className="pb-8">
-          <h2 className="py-3 text-2xl font-semibold">
-            {t("page.identity.title")}
-          </h2>
-          <p>
-            {t.rich("page.identity.body", {
-              email: (chunks) => (
-                <a
-                  className="hover:text-primary font-bold underline transition-colors"
-                  href={`mailto:${chunks}`}
-                >
-                  {chunks}
-                </a>
-              ),
-              website: (chunks) => (
-                <a
-                  className="hover:text-primary font-bold underline transition-colors"
-                  href={`${chunks}`}
-                >
-                  {chunks}
-                </a>
-              ),
-              strong: (chunks) => <strong>{chunks}</strong>,
-            })}
-          </p>
-        </section>
-        <section className="pb-8">
-          <h2 className="py-3 text-2xl font-semibold">
-            {t("page.acceptance.title")}
-          </h2>
-          <p>
-            {t.rich("page.acceptance.body", {
-              br: () => (
-                <>
-                  <br></br>
-                  <br></br>
-                </>
-              ),
 
-              strong: (chunks) => <strong>{chunks}</strong>,
-            })}
-          </p>
-        </section>
-        <section className="pb-8">
-          <h2 className="py-3 text-2xl font-semibold">
-            {t("page.purpose.title")}
-          </h2>
-          <p>
-            {t.rich("page.purpose.body", {
-              list: (chunks) => (
-                <ul className="list-inside list-disc space-y-1">{chunks}</ul>
-              ),
-              li: (chunks) => <li className="list-item">{chunks}</li>,
-              strong: (chunks) => <strong>{chunks}</strong>,
-              br: () => <br></br>,
-            })}
-          </p>
-        </section>
+        {/* Identity of Owner */}
+        <LegalSection title={t("page.identity.title")}>
+          {t.rich("page.identity.body", {
+            email: (chunks) => (
+              <a
+                className="hover:text-primary font-bold underline transition-colors"
+                href={`mailto:${chunks}`}
+              >
+                {chunks}
+              </a>
+            ),
+            website: (chunks) => (
+              <a
+                className="hover:text-primary font-bold underline transition-colors"
+                href={`${chunks}`}
+              >
+                {chunks}
+              </a>
+            ),
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </LegalSection>
+
+        {/* Acceptane of Terms and Conditions */}
+        <LegalSection title={t("page.acceptance.title")}>
+          {t.rich("page.acceptance.body", {
+            br,
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </LegalSection>
+
+        {/* Purpose */}
+        <LegalSection title={t("page.purpose.title")}>
+          {t.rich("page.purpose.body", {
+            list: (chunks) => (
+              <ul className="list-inside list-disc space-y-1 pt-2 pb-5">
+                {chunks}
+              </ul>
+            ),
+            li: (chunks) => <li className="list-item">{chunks}</li>,
+            strong: (chunks) => <strong>{chunks}</strong>,
+            br,
+          })}
+        </LegalSection>
+
+        {/* Use of the Website */}
+        <LegalSection title={t("page.use.title")}>
+          {t.rich("page.use.body", {
+            list: (chunks) => (
+              <ul className="list-inside list-disc space-y-1 pt-2">{chunks}</ul>
+            ),
+            li: (chunks) => <li className="list-item">{chunks}</li>,
+            strong: (chunks) => <strong>{chunks}</strong>,
+            br,
+          })}
+        </LegalSection>
+
+        {/* Data Protection */}
+        <LegalSection title={t("page.data_protection.title")}>
+          {t.rich("page.data_protection.body", {
+            link: (chunks) => (
+              <a
+                className="hover:text-primary font-bold underline transition-colors"
+                href="/legal/privacy-policy"
+              >
+                {chunks}
+              </a>
+            ),
+          })}
+        </LegalSection>
+
+        {/* Cookies */}
+        <LegalSection title={t("page.cookies.title")}>
+          {t.rich("page.cookies.body", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+            link: (chunks) => (
+              <a
+                className="hover:text-primary font-bold underline transition-colors"
+                href="/legal/cookies-policy"
+              >
+                {chunks}
+              </a>
+            ),
+          })}
+        </LegalSection>
+
+        {/* Intellectual Property */}
+        <LegalSection title={t("page.intellectual_property.title")}>
+          {t.rich("page.intellectual_property.body", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+            br,
+          })}
+        </LegalSection>
+
+        {/* Liability */}
+        <LegalSection title={t("page.liability.title")}>
+          {t.rich("page.liability.body", {
+            list: (chunks) => (
+              <ul className="list-inside list-disc space-y-1 pt-2 pb-5">
+                {chunks}
+              </ul>
+            ),
+            li: (chunks) => <li className="list-item">{chunks}</li>,
+            strong: (chunks) => <strong>{chunks}</strong>,
+            br,
+          })}
+        </LegalSection>
+
+        {/* Modifications */}
+        <LegalSection title={t("page.modifications.title")}>
+          {t.rich("page.modifications.body", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+            br,
+          })}
+        </LegalSection>
+
+        {/* Severability and Validity of Clauses */}
+        <LegalSection title={t("page.severability.title")}>
+          {t.rich("page.severability.body", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </LegalSection>
+
+        {/* Right of Exclusion */}
+        <LegalSection title={t("page.exclusion.title")}>
+          {t.rich("page.exclusion.body", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </LegalSection>
+
+        {/* Applicable Law and Jurisdiction */}
+        <LegalSection title={t("page.law_jurisdiction.title")}>
+          {t.rich("page.law_jurisdiction.body", {
+            strong: (chunks) => <strong>{chunks}</strong>,
+          })}
+        </LegalSection>
       </main>
     </StructuredData>
   );
