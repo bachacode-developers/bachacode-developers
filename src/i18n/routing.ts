@@ -30,6 +30,11 @@ export const routing = defineRouting({
       en: "/contact",
       es: "/contacto",
     },
+
+    "/legal/terms": {
+            en: "/legal/terms-and-conditions",
+            es: "/legal/terminos-y-condiciones"
+        }
   },
 });
 
