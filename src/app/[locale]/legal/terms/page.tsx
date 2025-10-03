@@ -2,7 +2,7 @@ import { hasLocale, useTranslations } from "next-intl";
 import LegalSection from "../LegalSection";
 import { StructuredData } from "@/components/layout/StructuredData";
 import { Metadata } from "next";
-import { getPathname } from "@/i18n/navigation";
+import { getPathname, Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { getTranslations } from "next-intl/server";
 
@@ -67,13 +67,13 @@ export default function Terms() {
                 {chunks}
               </a>
             ),
-            website: (chunks) => (
-              <a
+            homepage: (chunks) => (
+              <Link
                 className="hover:text-primary font-bold underline transition-colors"
-                href={`${chunks}`}
+                href="/"
               >
                 {chunks}
-              </a>
+              </Link>
             ),
             strong: (chunks) => <strong>{chunks}</strong>,
           })}
@@ -117,12 +117,12 @@ export default function Terms() {
         <LegalSection title={t("page.data_protection.title")}>
           {t.rich("page.data_protection.body", {
             link: (chunks) => (
-              <a
+              <Link
                 className="hover:text-primary font-bold underline transition-colors"
-                href="/legal/privacy-policy"
+                href="/legal/privacy"
               >
                 {chunks}
-              </a>
+              </Link>
             ),
           })}
         </LegalSection>
@@ -132,12 +132,12 @@ export default function Terms() {
           {t.rich("page.cookies.body", {
             strong: (chunks) => <strong>{chunks}</strong>,
             link: (chunks) => (
-              <a
+              <Link
                 className="hover:text-primary font-bold underline transition-colors"
-                href="/legal/cookies-policy"
+                href="/legal/cookies"
               >
                 {chunks}
-              </a>
+              </Link>
             ),
           })}
         </LegalSection>
