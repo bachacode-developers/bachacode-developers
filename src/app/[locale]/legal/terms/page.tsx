@@ -7,7 +7,7 @@ export default function Terms() {
     <StructuredData schemas={[]}>
       <main className="container px-12">
         <h1 className="py-6 text-4xl font-bold">{t("page.title")}</h1>
-        <section>
+        <section className="pb-8">
           <h2 className="py-3 text-2xl font-semibold">
             {t("page.identity.title")}
           </h2>
@@ -29,6 +29,23 @@ export default function Terms() {
                   {chunks}
                 </a>
               ),
+              strong: (chunks) => <strong>{chunks}</strong>,
+            })}
+          </p>
+        </section>
+        <section className="pb-8">
+          <h2 className="py-3 text-2xl font-semibold">
+            {t("page.acceptance.title")}
+          </h2>
+          <p>
+            {t.rich("page.acceptance.body", {
+              br: () => (
+                <>
+                  <br></br>
+                  <br></br>
+                </>
+              ),
+
               strong: (chunks) => <strong>{chunks}</strong>,
             })}
           </p>

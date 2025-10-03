@@ -472,7 +472,11 @@
         "title": "Términos y Condiciones",
         "identity": {
           "title": "Identificación del titular",
-          "body": "Los presentes <strong>Términos y Condiciones</strong> regularán la compra y venta de los servicios que <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (en adelante, el “<strong>Titular</strong>”), domiciliado en Venezuela y con correo electrónico <email>hola@bachacode.com</email>, comercializa a través del sitio <website>https://bachacode.com</website> (en adelante, el “<strong>Sitio Web</strong>”)."
+          "body": "Los presentes <strong>Términos y Condiciones</strong> regularán la compra y venta de los servicios que <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (en adelante, el “<strong>Propietario</strong>”), domiciliado en Venezuela y con correo electrónico <email>hola@bachacode.com</email>, comercializa a través del sitio <website>https://bachacode.com</website> (en adelante, el “<strong>Sitio Web</strong>”)."
+        },
+        "acceptance": {
+          "title": "Aceptación de los Términos y Condiciones",
+          "body": "Al utilizar los servicios del <strong>Sitio Web</strong>, el usuario (en adelante, el “<strong>Usuario</strong>” o los “<strong>Usuarios</strong>”) acepta los presentes Términos y Condiciones, los cuales definen los derechos y obligaciones del <strong>Propietario</strong> y del <strong>Usuario</strong> en relación con la relación profesional que pueda surgir del uso de los servicios accesibles a través del <strong>Sitio Web</strong>. Estos son los únicos Términos y Condiciones aplicables al uso del <strong>Sitio Web</strong> (sin perjuicio de que ciertos servicios puedan estar sujetos a condiciones adicionales) y a la contratación de servicios tales como consultas, gestión de proyectos, desarrollo de proyectos u otras actividades relacionadas ofrecidas por el <strong>Propietario</strong>. Estos Términos y Condiciones sustituyen a cualquier otra condición.<br></br>El uso del <strong>Sitio Web</strong> y de los servicios ofrecidos a través de este está prohibido para personas menores de 18 años. En caso de determinarse que un menor está utilizando el <strong>Sitio Web</strong> o intentando acceder a los servicios, el <strong>Propietario</strong> procederá de inmediato a restringir o denegar dicho acceso."
         }
       }
     }
