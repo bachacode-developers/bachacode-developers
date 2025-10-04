@@ -580,6 +580,15 @@
           "body": "El <strong>Usuario</strong> declara haber sido informado acerca de las condiciones relativas a la protección de datos personales, aceptando y consintiendo el tratamiento de los mismos por parte del <strong>Propietario</strong>, en la forma y para las finalidades indicadas en la presente <strong>Política de Privacidad</strong>."
         }
       }
+    },
+    "cookies": {
+      "metadata": {
+        "title": "Política de Cookies",
+        "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
+      },
+      "page": {
+        "title": "Política de Cookies"
+      }
     }
   }
 }

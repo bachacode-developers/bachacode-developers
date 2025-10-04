@@ -580,6 +580,15 @@
           "body": "The <strong>User</strong> declares that they have been informed of the conditions regarding the protection of personal data, accepting and consenting to the processing of such data by the <strong>Owner</strong>, in the manner and for the purposes indicated in this <strong>Privacy Policy</strong>."
         }
       }
+    },
+    "cookies": {
+      "metadata": {
+        "title": "Cookies Policy",
+        "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      },
+      "page": {
+        "title": "Cookies Policy"
+      }
     }
   }
 }
