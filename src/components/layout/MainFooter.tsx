@@ -26,6 +26,12 @@ export default function MainFooter() {
     { href: "/portfolio", label: tNavigation("portfolio") },
   ];
 
+  const legalLinks: FooterLink[] = [
+    { href: "/legal/terms", label: t("legal.terms") },
+    { href: "/legal/privacy", label: t("legal.privacy") },
+    { href: "/legal/cookies", label: t("legal.cookies") },
+  ];
+
   return (
     <footer className="flex w-full justify-center bg-white">
       <div className="w-full max-w-7xl p-4 py-6 lg:py-8">
@@ -41,7 +47,24 @@ export default function MainFooter() {
             </Link>
           </div>
           {/* Links */}
-          <div className="flex flex-col items-center gap-8 px-6 md:grid md:grid-cols-2 md:px-0">
+          <div className="flex flex-col items-center gap-8 px-6 md:grid md:grid-cols-3 md:items-start md:px-0">
+            {/* Legal Links */}
+            <div className="text-center md:text-left">
+              <h3 className="pb-3 font-semibold uppercase">{"legal"}</h3>
+              <ul className="text-muted-foreground space-y-2 font-medium">
+                {legalLinks.map((link, index) => (
+                  <li key={index}>
+                    <Link
+                      href={link.href}
+                      className="hover:text-primary transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
             {/* Main Links */}
             <div className="text-center md:text-left">
               <h3 className="pb-3 font-semibold uppercase">{t("discover")}</h3>

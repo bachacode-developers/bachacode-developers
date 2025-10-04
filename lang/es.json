@@ -15,7 +15,12 @@
     "discover": "Descubre",
     "contact": "Contacto",
     "contact_us": "Contactar",
-    "copyright": "Todos los derechos reservados."
+    "copyright": "Todos los derechos reservados.",
+    "legal": {
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad",
+      "cookies": "Política de Cookies"
+    }
   },
   "not_found": {
     "title": "Página no encontrada",
