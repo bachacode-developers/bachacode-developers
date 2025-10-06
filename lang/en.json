@@ -15,7 +15,12 @@
     "discover": "Discover",
     "contact": "Contact",
     "contact_us": "Contact us",
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "legal": {
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookies Policy"
+    }
   },
   "not_found": {
     "title": "Page not found",
@@ -461,5 +466,134 @@
   },
   "project_card": {
     "button": "View website"
+  },
+  "legal": {
+    "terms": {
+      "metadata": {
+        "title": "Terms and Conditions",
+        "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      },
+      "page": {
+        "title": "Terms and Conditions",
+        "identity": {
+          "title": "Identification of the Owner",
+          "body": "These <strong>Terms and Conditions</strong> govern the purchase and sale of the services provided by <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (hereinafter referred to as the “<strong>Owner</strong>”), a resident of Venezuela, who can be contacted via email at <email>hola@bachacode.com</email>, and who markets such services through the website <homepage>https://bachacode.com</homepage> (hereinafter referred to as the “<strong>Website</strong>”)."
+        },
+        "acceptance": {
+          "title": "Acceptance of the Terms and Conditions",
+          "body": "By using the services of the <strong>Website</strong>, the user (hereinafter referred to as the “<strong>User</strong>” or “<strong>Users</strong>”) accepts these <strong>Terms and Conditions</strong>, which define the rights and obligations of the <strong>Owner</strong> and the <strong>User</strong> in relation to the professional relationship that may arise from the use of the services accessible through the <strong>Website</strong>. These are the only <strong>Terms and Conditions</strong> applicable to the use of the <strong>Website</strong> (without prejudice to the fact that certain services may be subject to additional terms) and to the engagement of services such as consultations, project management, project development, or related activities offered by the <strong>Owner</strong>. These <strong>Terms and Conditions</strong> supersede any other conditions.<br></br>The use of the <strong>Website</strong> and the services offered through it is prohibited for persons under 18 years of age. If it is determined that a minor is using the <strong>Website</strong> or attempting to engage with the services, the <strong>Owner</strong> will immediately restrict or deny such access."
+        },
+        "purpose": {
+          "title": "Purpose",
+          "body": "The <strong>Website</strong> offers professional web development and consulting services, including but not limited to:<list><li>Custom static websites</li><li>WordPress-based websites</li><li>Custom web applications</li><li>Web consulting and strategic planning</li><li>Web support and maintenance</li><li>Website optimization (SEO, performance, and user experience)</li></list>The purpose of these general conditions is to regulate the provision of these Services to the <strong>Users</strong>."
+        },
+        "use": {
+          "title": "Use of the Website",
+          "body": "The <strong>Users</strong> agree to make lawful, diligent, honest, and proper use of any information or content to which they have access through the <strong>Website</strong>, always acting in good faith and in compliance with the applicable laws and these <strong>Terms and Conditions</strong>.<br></br>The <strong>Owner</strong> reserves the right to restrict access to the <strong>Website</strong> to those <strong>Users</strong> who misuse it, engage in fraudulent acts, or carry out activities that may harm or attempt to harm the <strong>Owner</strong>.<br></br>If the <strong>Owner</strong> detects any anomaly or has reasonable grounds to believe that a <strong>User</strong> is engaging in fraudulent activities that contravene good faith and these <strong>Terms and Conditions</strong>, the <strong>Owner</strong> may restrict or block access to that <strong>User</strong> and, if applicable, take all corresponding legal actions.<br></br>The following activities are expressly prohibited:<list><li>Carrying out hacking, phishing, scraping, or any technique that compromises the security of the <strong>Website</strong>.</li><li>Accessing restricted areas without express authorization.</li><li>Distributing malware or interfering with the proper functioning of the <strong>Website</strong>.</li></list>"
+        },
+        "data_protection": {
+          "title": "Data Protection",
+          "body": "The processing of personal data is carried out in accordance with the applicable data protection regulations, including international standards such as the General Data Protection Regulation (GDPR) and, where applicable, the laws of the United States or other relevant jurisdictions. For more details, please refer to our <link>Privacy Policy</link>."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "body": "This <strong>Website</strong> uses technical and analytical cookies. To learn about their purpose and how to manage them, please refer to our <link>Cookie Policy</link>, drafted in compliance with the applicable legal framework on electronic communications and online services."
+        },
+        "intellectual_property": {
+          "title": "Intellectual Property",
+          "body": "All contents of the <strong>Website</strong> (texts, images, designs, source code, trademarks, logos, etc.) are the property of the <strong>Owner</strong> or of third parties who have authorized their use. Their reproduction, distribution, or public communication without prior written authorization is expressly prohibited, in accordance with applicable intellectual property and trademark laws.<br></br>Accordingly, and under the provisions of national, international, and applicable intellectual property and industrial property regulations, the reproduction, transmission, adaptation, translation, distribution, public communication, including the provision of access to all or part of the contents of the <strong>Website</strong>, for purposes other than personal use by the <strong>User</strong>, in any medium and by any technical means, is expressly prohibited without prior written authorization from the <strong>Owner</strong>.<br></br>In particular, and in accordance with international standards on intellectual property, the use of all or part of the contents of this <strong>Website</strong>, and specifically content created by the <strong>Owner</strong>, for commercial purposes, in any medium and by any technical means, is expressly prohibited without the prior written authorization of the <strong>Owner</strong>.<br></br>The <strong>Owner</strong> does not grant any license or authorization of use of any kind over its intellectual and industrial property rights or over any other property or right related to the <strong>Website</strong>, except as provided in this clause, and under no circumstances shall it be understood that access and navigation by the <strong>Users</strong> implies a waiver, transfer, or total or partial assignment of said rights by the <strong>Owner</strong>.<br></br>Any unauthorized use of such contents by the <strong>User</strong> shall be considered a serious breach of the intellectual or industrial property rights of the <strong>Owner</strong> and shall give rise to the corresponding legal liabilities."
+        },
+        "liability": {
+          "title": "Liability",
+          "body": "The <strong>Owner</strong> does not grant any warranty and shall not be held liable, under any circumstances, for damages of any kind that may arise from access to or use of the contents or the <strong>Website</strong>, except in cases of willful misconduct or gross negligence on the part of the <strong>Owner</strong>. Without limitation, the <strong>Owner</strong> shall not be responsible for the following circumstances:<list><li>The lack of availability, maintenance, and proper functioning of the <strong>Website</strong> and/or its services or contents, excluding, to the maximum extent permitted by applicable law, any liability for damages that may result from interruptions or lack of continuity in the functioning of the <strong>Website</strong>, such as errors or delays in accessing the <strong>Website</strong> by the <strong>User</strong>, or any anomaly that may arise beyond the good faith of the <strong>Owner</strong>.</li><li>The lack of usefulness of the <strong>Website</strong> or its contents for any particular service or purpose.</li><li>The content of external websites that may be linked from the <strong>Website</strong>.</li><li>The existence of viruses, malicious programs, or harmful elements on the <strong>Website</strong>.</li><li>The unlawful, negligent, fraudulent, or bad-faith use of the <strong>Website</strong> or its contents by <strong>Users</strong>, including any infringement of the intellectual and/or industrial property rights of the <strong>Owner</strong> or third parties.</li></list>Under no circumstances shall the services offered through this <strong>Website</strong> be understood as guaranteeing specific results. Any reference to potential performance or outcomes shall not be interpreted as a warranty of results.<br></br>In any case, the <strong>Owner</strong> undertakes to address issues that may arise and to provide all necessary support to the <strong>User</strong> in order to achieve a prompt and satisfactory resolution of any incident."
+        },
+        "modifications": {
+          "title": "Modifications",
+          "body": "The information displayed on this <strong>Website</strong> is current as of the date of its last update. The <strong>Owner</strong> reserves the right to update, modify, or remove the information on this <strong>Website</strong>, as well as these <strong>Terms and Conditions</strong>, the <strong>Privacy Policy</strong>, or any other information, including the description or name of its services, for reasons of marketing, strategy, or any other circumstances deemed appropriate.<br></br>The modifications to these <strong>Terms and Conditions</strong> shall enter into force from the moment of their publication on this <strong>Website</strong>."
+        },
+        "severability": {
+          "title": "Severability and Validity of Clauses",
+          "body": "If any clause included in these <strong>Terms and Conditions</strong> is declared, in whole or in part, null or invalid, such nullity or invalidity shall only affect that provision or the part of it that is null or invalid. The remaining clauses shall remain in full force and effect, and the affected provision, or the part of it that is invalid, shall be deemed not included."
+        },
+        "exclusion": {
+          "title": "Right of Exclusion",
+          "body": "The <strong>Owner</strong> reserves the right to deny or withdraw access to the <strong>Website</strong> and/or the services offered, without prior notice and at its own discretion or at the request of a third party, from those <strong>Users</strong> who fail to comply with these <strong>Terms and Conditions</strong>."
+        },
+        "law_jurisdiction": {
+          "title": "Applicable Law and Jurisdiction",
+          "body": "These <strong>Terms and Conditions</strong> shall be governed and interpreted in accordance with the laws of the jurisdiction in which the <strong>Owner</strong> is legally established, without regard to its conflict of law provisions. In the event of any dispute, the parties expressly submit to the competent courts of that jurisdiction, unless otherwise provided by applicable mandatory law."
+        }
+      }
+    },
+    "privacy": {
+      "metadata": {
+        "title": "Privacy Policy",
+        "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      },
+      "page": {
+        "title": "Privacy Policy",
+        "privacy_policy": {
+          "title": "Privacy Policy",
+          "body": "Your privacy is important to us. In this <strong>Privacy Policy</strong> we explain what personal data we collect from <strong>Users</strong> and how we use it. We encourage you to read these terms carefully before providing any personal data through this <strong>Website</strong> or through contact forms.<br></br>The use of the <strong>Website</strong> and the services offered through it is prohibited for persons under 18 years of age without the consent of their parents or legal guardians. If you are under 18 and have accessed this <strong>Website</strong> without such consent, you must not provide personal data.<br></br>On this <strong>Website</strong> we respect and protect the personal data of <strong>Users</strong>. As a <strong>User</strong> you should know that your rights are guaranteed.<br></br>We have worked to create a safe and reliable space, and therefore we want to share our privacy principles:<list><li>We never share personal information of our <strong>Users</strong> with anyone, except to comply with the law or when we have your express authorization.</li><li>We never use your personal data for any purpose other than those described in this <strong>Privacy Policy</strong>.</li></list>"
+        },
+        "data_controller": {
+          "title": "Data Controller",
+          "body": "The controller responsible for the processing of personal data is <strong>CRISTHIAN JOSÉ FLORES ASTUDILLO</strong> (hereinafter, the “<strong>Owner</strong>”), a resident of Venezuela, who can be contacted at <email>hola@bachacode.com</email>. The <strong>Owner</strong> offers web development and consulting services through the <homepage>Website</homepage>."
+        },
+        "purposes_legal_basis": {
+          "title": "Purposes and Legal Bases of Processing",
+          "body": "The personal data collected is used for the following purposes:<list><li>Responding to inquiries through contact forms (legal basis: legitimate interest).</li><li>Provision of contracted services such as consultations, project management, or web development (legal basis: performance of a contract).</li><li>Statistical analysis and improvement of the <strong>Website</strong> (legal basis: consent through cookies).</li></list>With respect to <strong>User</strong> consent to the processing of personal data, the <strong>User</strong> may withdraw consent at any time by sending an email to the address provided above, without affecting the lawfulness of processing based on consent prior to its withdrawal."
+        },
+        "data_types": {
+          "title": "Types of Data Collected",
+          "body": "The following categories of personal data may be collected:<list><li><strong>Identification data</strong>: Name, surname, email address, IP address.</li><li><strong>Browsing data</strong>: Cookies (see our <link>Cookie Policy</link>).</li></list>"
+        },
+        "data_retention": {
+          "title": "Data Retention",
+          "body": "Personal data will be retained under the following conditions:<list><li><strong>Contact requests and communications</strong>: Until the <strong>User</strong> requests their deletion.</li><li><strong>Invoices and legal documents</strong>: 6 years (to comply with tax obligations under applicable law).</li></list>"
+        },
+        "data_recipients": {
+          "title": "Recipients of Data",
+          "body": "The personal data provided by <strong>Users</strong> may be shared with the following entities:<list><li>The <strong>Owner</strong> of the <strong>Website</strong>.</li><li><strong>External service providers</strong>: Hosting services, cloud platforms (e.g., AWS, Vercel), email communication tools, and analytical tools (e.g., Google Analytics).</li><li><strong>Legal obligations</strong>: Data may be disclosed to competent authorities if required by law.</li></list>"
+        },
+        "user_rights": {
+          "title": "User Rights Regarding Personal Data",
+          "body": "In accordance with applicable data protection regulations, <strong>Users</strong> may exercise the following rights:<list><li><strong>Access, rectification, or deletion</strong> of their personal data.</li><li><strong>Restriction or objection</strong> to processing.</li><li><strong>Data portability</strong>.</li><li><strong>Withdrawal of consent</strong> at any time.</li><li><strong>Right to be forgotten</strong>.</li></list>To exercise these rights, <strong>Users</strong> may send a request to <email>hola@bachacode.com</email>.<br></br>The maximum response period is <strong>1 month</strong>."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "body": "This <strong>Website</strong> uses both first-party and third-party cookies. For more information, please consult our <link>Cookie Policy</link>."
+        },
+        "data_security": {
+          "title": "Data Security",
+          "body": "The protection of the privacy and personal data of <strong>Users</strong> is a priority for the <strong>Owner</strong>. The <strong>Owner</strong> takes all reasonable measures to prevent misuse of personal data and restricts access only to authorized personnel.<br></br>The <strong>Owner</strong> maintains appropriate levels of security in accordance with applicable regulations and has implemented technical measures to prevent loss, misuse, alteration, unauthorized access, and theft of the data provided by <strong>Users</strong> through the <strong>Website</strong>. However, <strong>Users</strong> are advised that no security measures on the Internet are completely infallible.<br></br>The <strong>Owner</strong> undertakes to maintain confidentiality and secrecy regarding personal data in accordance with applicable law."
+        },
+        "policy_modifications": {
+          "title": "Modifications to the Privacy Policy",
+          "body": "The <strong>Owner</strong> reserves the right to revise this <strong>Privacy Policy</strong> whenever deemed appropriate, in which case <strong>Users</strong> will be informed. Nevertheless, we recommend that you check this <strong>Privacy Policy</strong> regularly in order to review the most recent version."
+        },
+        "third_party_links": {
+          "title": "Links to Third-Party Websites",
+          "body": "The <strong>Website</strong> may contain links to websites of third-party companies or entities.<br></br>The <strong>Owner</strong> cannot be held responsible for the way these companies handle privacy and personal data protection. Therefore, we recommend that you carefully read the <strong>Privacy Policies</strong> of any such websites not owned by the <strong>Owner</strong> regarding their use, processing, and protection of personal data.<br></br>The terms and conditions offered by these third-party websites may differ from those provided by the <strong>Owner</strong>."
+        },
+        "policy_questions": {
+          "title": "Questions About the Privacy Policy",
+          "body": "If you have any questions regarding this <strong>Privacy Policy</strong> or the processing of your personal data, please contact the <strong>Owner</strong> by email at <email>hola@bachacode.com</email>.<br></br>If you believe that your rights have not been properly safeguarded, you have the right to file a complaint with the competent data protection authority in your place of residence."
+        },
+        "acceptance_consent": {
+          "title": "Acceptance and Consent",
+          "body": "The <strong>User</strong> declares that they have been informed of the conditions regarding the protection of personal data, accepting and consenting to the processing of such data by the <strong>Owner</strong>, in the manner and for the purposes indicated in this <strong>Privacy Policy</strong>."
+        }
+      }
+    },
+    "cookies": {
+      "metadata": {
+        "title": "Cookies Policy",
+        "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+      },
+      "page": {
+        "title": "Cookies Policy"
+      }
+    }
   }
 }
