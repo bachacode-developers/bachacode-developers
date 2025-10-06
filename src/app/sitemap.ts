@@ -32,6 +32,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...getEntries("/services"),
     ...getEntries("/portfolio"),
     ...getEntries("/contact"),
+    ...getEntries("/legal/terms"),
+    ...getEntries("/legal/privacy"),
+    ...getEntries("/legal/cookies"),
   ];
   return [...routes];
 }
