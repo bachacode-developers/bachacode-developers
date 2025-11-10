@@ -24,23 +24,23 @@
   },
   "not_found": {
     "title": "Página no encontrada",
-    "description": "Disculpa, no podemos encontrar esa página, ¡dirigasé a la página de inicio para seguir navegando!",
+    "description": "Disculpa, no podemos encontrar esa página, ¡diríjase a la página de inicio para seguir navegando!",
     "button": "Regresar al Inicio"
   },
   "home": {
     "metadata": {
       "title": "Diseño de Páginas Web & Aplicaciones para Negocios Pequeñas",
-      "description": "Consigue una página web profesional y asequible para tu negocio. Creamos páginas web en WordPress, aplicaciones sencillos y soluciones personalizadas para que tu empresa esté online rápido y sin complicaciones."
+      "description": "Consigue una página web profesional y asequible para tu negocio. Creamos páginas web en WordPress, aplicaciones sencillas y soluciones personalizadas para que tu empresa esté online rápido y sin complicaciones."
     },
     "hero": {
-      "title": "Construimos <websites>sitios web</websites> increibles para negocios pequeños",
-      "subtitle": "con nosotros crea tu página web a un precio asequible",
+      "title": "Construimos <websites>sitios web</websites> increíbles para negocios pequeños",
+      "subtitle": "Con nosotros crea tu página web a un precio asequible",
       "primary_button": "Comienza tu proyecto",
       "secondary_button": "Mira nuestro trabajo"
     },
     "about": {
       "title": "Como ayudamos te ayudamos a hacer una página web para tu negocio o emprendimiento",
-      "body": "Somos un equipo de desarrolladores web con experiencia que ayuda a pequeños negocios, startups y emprendedores a crear páginas web corporativas, páginas en WordPress, aplicaciones web y cualquier solución digital personalizada que se ajuste a tus necesidades. Desde crear una página web para tu negocio hasta mejorar la que ya tienes, nos encargamos de dominios, hosting, diseño y toda la parte técnica para que tú no tengas que preocuparte.\n\nYa sea que necesites una página web de una sola sección, una presencia online para tu marca personal o una solución a medida, entregamos páginas web profesionales y asequibles que se ven bien, funcionan rápido y crecen contigo.\n\nNo necesitas saber de programación: solo tus ideas y nuestra experiencia para dar vida a tu próximo proyecto online.",
+      "body": "Somos un equipo de desarrolladores web con experiencia que ayuda a pequeños negocios, startups y emprendedores a crear páginas web corporativas, páginas en WordPress, aplicaciones web y cualquier solución digital personalizada que se ajuste a tus necesidades. Desde crear una página web para tu negocio hasta mejorar la que ya tienes, nos encargamos de dominios, alojamiento, diseño y toda la parte técnica para que tú no tengas que preocuparte.\n\nYa sea que necesites una página web de una sola sección, una presencia online para tu marca personal o una solución a medida, entregamos páginas web profesionales y asequibles que se ven bien, funcionan rápido y crecen contigo.\n\nNo necesitas saber de programación: solo tus ideas y nuestra experiencia para dar vida a tu próximo proyecto online.",
       "button": {
         "text": "Aprende más",
         "aria_label": "Aprende más acerca de Bachacode Developers"
@@ -49,18 +49,18 @@
     "counter": {
       "projects": "Proyectos completados",
       "clients": "Clientes satisfechos",
-      "experience": "Años de experiencía"
+      "experience": "Años de experiencia"
     },
     "services": {
       "title": "¿Qué te <keyword>ofrecemos</keyword> para tu negocio?",
-      "subtitle": "Los servicios accessibles a todos nuestros clientes",
+      "subtitle": "Los servicios accesibles a todos nuestros clientes",
       "cards": {
         "static": {
-          "title": "Páginas Web Sencilas",
+          "title": "Páginas web sencillas",
           "body": "Páginas web personalizadas con contenido estático, ideales para pequeños negocios y emprendedores que quieren una web sencilla, como un sitio web corporativo o un portafolio estático. Estas páginas son asequibles, rápidas y eficientes, perfectas para contenido estable que no cambia con frecuencia.",
           "features": {
             "affordable": "Asequible",
-            "lightning_fast": "Carga Rapida",
+            "lightning_fast": "Carga Rápida",
             "short_delivery": "Tiempo de Entrega Corto"
           }
         },
@@ -112,19 +112,19 @@
       },
       "button": {
         "text": "Ver más servicios",
-        "aria_label": "Ver más servicios de desarollo web para negocios pequeños, pymes y emprendedores"
+        "aria_label": "Ver más servicios de desarrollo web para negocios pequeños, pymes y emprendedores"
       }
     },
     "technologies": {
       "title": "Tecnologías que usamos para crear <keyword>páginas web</keyword> atractivas",
-      "subtitle": "Somos expertos en la tecnología mas vanguardista del desarrollo web"
+      "subtitle": "Somos expertos en la tecnología más vanguardista del desarrollo web"
     },
     "clients": {
       "title": "<keyword>Páginas</keyword> en las que hemos trabajado",
-      "subtitle": "Los proyectos mas grandes en los que hemos trabajado o hemos hecho",
+      "subtitle": "Los proyectos más grandes en los que hemos trabajado o hemos hecho",
       "testimonies": {
         "tailor": {
-          "name": "Guillermo Saez",
+          "name": "Guillermo Sáez",
           "occupation": "CEO de TailorSheet",
           "body": "Con Bachacode Developers encontré lo que muchos emprendedores buscan y nunca encuentran: La tranquilidad de poder dejar tu negocio en manos de personas que lo cuidan y ayudan a hacerlo crecer con soluciones que rozan la excelencia. Que aportan ideas y que se implican al 100% con cada proyecto."
         },
@@ -136,7 +136,7 @@
       },
       "button": {
         "text": "Ver portafolio completo",
-        "aria_label": "Ver nuestro portfaolio de proyectos de desarollo web que hemos hecho para negocios pequeños, pymes y emprendedores"
+        "aria_label": "Ver nuestro portafolio de proyectos de desarrollo web que hemos hecho para negocios pequeños, pymes y emprendedores"
       }
     },
     "team": {
@@ -165,7 +165,7 @@
         "title": "Desarrolladores experimentados.",
         "cristhian": {
           "name": "Cristhian Flores",
-          "occupation": "Fullstack Developer",
+          "occupation": "Desarrollador Fullstack",
           "body": "Experimentado en el desarrollo de interfaces y APIs con conocimientos tanto en frontend como en backend."
         },
         "josibel": {
@@ -179,7 +179,7 @@
   "about_us": {
     "metadata": {
       "title": "Sobre Nosotros",
-      "description": "Descubre Bachacode Developers, expertos innovadores en desarrollo web desde 2021. Conoce nuestra misión de ofrecer soluciones digitales personalizadas y de alta calidad, nuestros valores éticos y nuestro equipo de profesionales, incluyendo Desarrolladores Fullstack y Diseñadores UX/UI, comprometidos con el éxito de los clientes."
+      "description": "Descubre Bachacode Developers, expertos innovadores en desarrollo web desde 2021. Conoce nuestra misión de ofrecer soluciones digitales personalizadas y de alta calidad, nuestros valores éticos y nuestro equipo de profesionales, dentro de los cuales hay desarrolladores Fullstack y diseñadores UX/UI, comprometidos con el éxito de los clientes."
     },
     "hero": {
       "title": "Sobre <keyword>Bachacode Developers</keyword>",
@@ -214,7 +214,7 @@
       "cards": {
         "cristhian": {
           "name": "Cristhian Flores",
-          "occupation": "Fullstack Developer",
+          "occupation": "Desarrollador Fullstack",
           "body": "Experimentado en el desarrollo de interfaces y diseño con conocimientos tanto en frontend como en backend."
         },
         "josibel": {
@@ -223,7 +223,7 @@
           "body": "Especializada en la creación de experiencias de usuario intuitivas y atractivas, con un enfoque en el diseño visual y la usabilidad para garantizar interfaces eficientes y agradables."
         },
         "linkedin": "Perfil de LinkedIn de {name}",
-        "github": "Perfil de Github de {name}",
+        "github": "Perfil de GitHub de {name}",
         "not_available": "No disponible"
       }
     }
@@ -312,7 +312,7 @@
             },
             "custom_php": {
               "title": "Soporte PHP y HTML",
-              "description": "Compatibilidad con sitios web estáticos en HTML y aplicaciones en PHP, incluyendo WordPress."
+              "description": "Compatibilidad con sitios web estáticos en HTML y aplicaciones en PHP, incluyendo WordPress"
             },
             "team_access": {
               "title": "Acceso seguro para equipos",
@@ -321,12 +321,12 @@
           }
         },
         "cloud": {
-          "title": "Cloud Hosting",
+          "title": "Alojamiento en la nube",
           "description": "Alojamiento flexible y escalable que combina la potencia de recursos dedicados con la fiabilidad de la nube. Ideal para negocios que necesitan un rendimiento constante.",
           "features": {
             "dedicated_resources": {
               "title": "Recursos dedicados",
-              "description": "CPU, RAM y almacenamiento garantizados y reservados para tus sitios web sin compartir con otros usuarios."
+              "description": "CPU, RAM y almacenamiento garantizado y reservados para tus sitios web sin compartir con otros usuarios."
             },
             "auto_scaling": {
               "title": "Escalado automático",
@@ -361,7 +361,7 @@
     "projects": {
       "title": "<keyword>Proyectos web</keyword> en los que hemos trabajado",
       "subtitle": "Sitios web que hemos construido o mejorado para aumentar la clientela de sus negocios",
-      "view_case_study": "Ver caso (Proximamente)",
+      "view_case_study": "Ver caso (Próximamente)",
       "technologies_used": "Tecnologías usadas",
       "view_website": "Ver sitio web"
     }
@@ -408,7 +408,7 @@
           "required": "{field_name} es obligatorio.",
           "min": "{field_name} debe tener al menos {amount} caracteres.",
           "max": "{field_name} debe tener como máximo {amount} caracteres.",
-          "email": "Este campo debe tener el formato de un correo electrónico, ej: ejemplo@email.com"
+          "email": "Este campo debe tener el formato de un correo electrónico, e.g: ejemplo@email.com"
         },
         "server": {
           "internal": "Algo ha salido mal por nuestra parte. Por favor, inténtalo de nuevo en unos minutos. Si esto continúa, contacta con nuestro equipo de soporte por otros medios.",
@@ -445,7 +445,7 @@
     "month": "mes",
     "specs": {
       "title": "Especificaciones",
-      "ram": "{memory} de ram",
+      "ram": "{memory} de RAM",
       "cpu": "CPU de {cores} núcleos",
       "storage": "{space} de almacenamiento NVMe",
       "network": "{bandwith} de ancho de banda"
@@ -456,7 +456,7 @@
       "ssl": "SSL Gratis sin coste añadido",
       "cloudflare": "Integración con Cloudflare gratuita",
       "domain": "Dominio incluido en el precio",
-      "emails": "Correos personalizados (con el dominio incluido)",
+      "emails": "Correos profesionales personalizados",
       "uptime": "99.99% de uptime del servidor"
     }
   },
