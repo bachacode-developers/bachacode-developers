@@ -57,8 +57,8 @@ export default function ProjectCarousel({ items }: { items: Project[] }) {
           <ProjectCarouselItem key={item.id} {...item} />
         ))}
       </CarouselContent>
-      <CarouselNext variant="default" />
-      <CarouselPrevious variant="default" />
+      <CarouselNext variant="default" className="cursor-pointer" />
+      <CarouselPrevious variant="default" className="cursor-pointer" />
     </Carousel>
   );
 }
