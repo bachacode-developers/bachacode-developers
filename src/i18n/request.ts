@@ -8,13 +8,15 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const homepage = await import(`../../lang/${locale}/homepage.json`);
   const common = await import(`../../lang/${locale}/common.json`);
+  const homepage = await import(`../../lang/${locale}/homepage.json`);
+  const aboutUs = await import(`../../lang/${locale}/about_us.json`);
 
   const messages = {
     ...(await import(`../../lang/${locale}.json`)).default,
-    homepage: { ...homepage },
     common: { ...common },
+    homepage: { ...homepage },
+    about_us: { ...aboutUs },
   };
 
   return {
