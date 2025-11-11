@@ -16,20 +16,19 @@ interface FooterLink {
 }
 
 export default function MainFooter() {
-  const t = useTranslations("footer");
-  const tNavigation = useTranslations("navigation");
+  const t = useTranslations("common");
 
   const discoverLinks: FooterLink[] = [
-    { href: "/", label: tNavigation("home") },
-    { href: "/about-us", label: tNavigation("about_us") },
-    { href: "/services", label: tNavigation("services") },
-    { href: "/portfolio", label: tNavigation("portfolio") },
+    { href: "/", label: t("navigation.main.home") },
+    { href: "/about-us", label: t("navigation.main.about_us") },
+    { href: "/services", label: t("navigation.main.services") },
+    { href: "/portfolio", label: t("navigation.main.portfolio") },
   ];
 
   const legalLinks: FooterLink[] = [
-    { href: "/legal/terms", label: t("legal.terms") },
-    { href: "/legal/privacy", label: t("legal.privacy") },
-    { href: "/legal/cookies", label: t("legal.cookies") },
+    { href: "/legal/terms", label: t("navigation.legal.terms") },
+    { href: "/legal/privacy", label: t("navigation.legal.privacy") },
+    { href: "/legal/cookies", label: t("navigation.legal.cookies") },
   ];
 
   return (
@@ -67,7 +66,9 @@ export default function MainFooter() {
 
             {/* Main Links */}
             <div className="text-center md:text-left">
-              <h3 className="pb-3 font-semibold uppercase">{t("discover")}</h3>
+              <h3 className="pb-3 font-semibold uppercase">
+                {t("footer.discover")}
+              </h3>
               <ul className="text-muted-foreground space-y-2 font-medium">
                 {discoverLinks.map((link, index) => (
                   <li key={index}>
@@ -84,7 +85,9 @@ export default function MainFooter() {
 
             {/* Contact info */}
             <div className="text-center md:text-left">
-              <h3 className="pb-3 font-semibold uppercase">{t("contact")}</h3>
+              <h3 className="pb-3 font-semibold uppercase">
+                {t("footer.contact")}
+              </h3>
               <ul className="text-muted-foreground space-y-2 font-medium">
                 <li>
                   <a
@@ -119,7 +122,7 @@ export default function MainFooter() {
                     className="rounded px-6 py-3 uppercase"
                     asChild
                   >
-                    <Link href="/contact">{t("contact_us")}</Link>
+                    <Link href="/contact">{t("footer.contact_us")}</Link>
                   </Button>
                 </li>
               </ul>
@@ -143,7 +146,7 @@ export default function MainFooter() {
               <Link href="/" className="hover:underline">
                 Bachacode Developers.
               </Link>
-              {t("copyright")}
+              {t("footer.copyright")}
             </span>
           </div>
           <div className="flex md:mt-0 md:justify-center">

@@ -1,32 +1,4 @@
 {
-  "metadata": {
-    "website": {
-      "description": "Desarrollo web para negocios pequeños"
-    }
-  },
-  "navigation": {
-    "home": "Inicio",
-    "about_us": "Sobre Nosotros",
-    "services": "Servicios",
-    "portfolio": "Portafolio",
-    "contact": "Contacto"
-  },
-  "footer": {
-    "discover": "Descubre",
-    "contact": "Contacto",
-    "contact_us": "Contactar",
-    "copyright": "Todos los derechos reservados.",
-    "legal": {
-      "terms": "Términos y Condiciones",
-      "privacy": "Política de Privacidad",
-      "cookies": "Política de Cookies"
-    }
-  },
-  "not_found": {
-    "title": "Página no encontrada",
-    "description": "Disculpa, no podemos encontrar esa página, ¡diríjase a la página de inicio para seguir navegando!",
-    "button": "Regresar al Inicio"
-  },
   "about_us": {
     "metadata": {
       "title": "Sobre Nosotros",

@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "main": {
+      "home": "Home",
+      "about_us": "About Us",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    },
+    "legal": {
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookies Policy"
+    }
+  },
+  "footer": {
+    "discover": "Discover",
+    "contact": "Contact info",
+    "contact_us": "Contact us",
+    "copyright": "All rights reserved."
+  },
+  "not_found": {
+    "title": "Page not found",
+    "description": "Sorry, we can't find that page, please go to the home page to continue browsing!",
+    "button": "Back to homepage"
+  }
+}

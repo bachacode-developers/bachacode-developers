@@ -1,32 +1,4 @@
 {
-  "metadata": {
-    "website": {
-      "description": "Website development for small businesses"
-    }
-  },
-  "navigation": {
-    "home": "Home",
-    "about_us": "About Us",
-    "services": "Services",
-    "portfolio": "Portfolio",
-    "contact": "Contact"
-  },
-  "footer": {
-    "discover": "Discover",
-    "contact": "Contact",
-    "contact_us": "Contact us",
-    "copyright": "All rights reserved.",
-    "legal": {
-      "terms": "Terms and Conditions",
-      "privacy": "Privacy Policy",
-      "cookies": "Cookies Policy"
-    }
-  },
-  "not_found": {
-    "title": "Page not found",
-   "description": "Sorry, we can't find that page, please go to the home page to continue browsing!",
-    "button": "Back to homepage"
-  }, 
   "about_us": {
     "metadata": {
       "title": "About Us",

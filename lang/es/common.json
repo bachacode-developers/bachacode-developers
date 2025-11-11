@@ -1,0 +1,27 @@
+{
+  "navigation": {
+    "main": {
+      "home": "Inicio",
+      "about_us": "Sobre Nosotros",
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad",
+      "cookies": "Política de Cookies"
+    }
+  },
+  "footer": {
+    "discover": "Descubre",
+    "contact": "Info. de contacto",
+    "contact_us": "Contactar",
+    "copyright": "Todos los derechos reservados."
+  },
+  "not_found": {
+    "title": "Página no encontrada",
+    "description": "Disculpa, no podemos encontrar esa página, ¡diríjase a la página de inicio para seguir navegando!",
+    "button": "Regresar al Inicio"
+  }
+}
