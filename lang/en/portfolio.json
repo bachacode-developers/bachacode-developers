@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Portfolio",
+    "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+  },
+  "hero": {
+    "badge": "Our Awesome Portfolio!",
+    "title": "Successful <keyword>websites</keyword> we have made",
+    "subtitle": "Discover a selection of our most outstanding projects, which reflect our commitment to innovation and quality in web development.",
+    "button": "Get a budget",
+    "projects": "Projects",
+    "success": "Success"
+  },
+  "projects": {
+    "title": "<keyword>Web projects</keyword> we have worked in",
+    "subtitle": "Websites that we have built or improved to get more clients to their businesses",
+    "view_case_study": "View Case Study (Coming Soon)",
+    "technologies_used": "Technologies used",
+    "view_website": "View Website"
+  }
+}

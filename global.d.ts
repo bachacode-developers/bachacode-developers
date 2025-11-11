@@ -4,12 +4,14 @@ import common from "./lang/en/common.json";
 import homepage from "./lang/en/homepage.json";
 import aboutUs from "./lang/en/about_us.json";
 import services from "./lang/en/services.json";
+import portfolio from "./lang/en/portfolio.json";
 
 type Messages = typeof messages & {
   common: typeof common;
   homepage: typeof homepage;
   about_us: typeof aboutUs;
   services: typeof services;
+  portfolio: typeof portfolio;
 };
 
 declare module "next-intl" {
