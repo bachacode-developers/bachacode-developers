@@ -44,6 +44,7 @@ const es: Project[] = [
       text: "Con Bachacode Developers encontré lo que muchos emprendedores buscan y nunca encuentran: La tranquilidad de poder dejar tu negocio en manos de personas que lo cuidan y ayudan a hacerlo crecer con soluciones que rozan la excelencia. Que aportan ideas y que se implican al 100% con cada proyecto.",
     },
     externalLink: "https://tailorsheet.com/",
+    visitWebsite: "Ver sitio",
   },
   {
     id: "jaime_morales",
@@ -74,6 +75,7 @@ const es: Project[] = [
     ],
     technologies: ["WordPress", "Elementor", "PHP", "CSS"],
     externalLink: "https://jaimemorales.es/",
+    visitWebsite: "Ver sitio",
   },
   {
     id: "mesgo",

@@ -30,7 +30,9 @@ function ProjectCarouselItem(project: Readonly<Project>) {
               rel="noopener noreferrer"
               className="mt-2 inline-block text-sm text-blue-400 hover:underline"
             >
-              Visit Website
+              {project.externalLink && project.visitWebsite && (
+                <span>{project.visitWebsite}</span>
+              )}
             </a>
           )}
         </div>
