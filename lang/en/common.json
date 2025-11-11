@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "website": {
+      "description": "Website development for small businesses"
+    }
+  },
   "navigation": {
     "main": {
       "home": "Home",

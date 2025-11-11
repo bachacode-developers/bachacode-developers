@@ -1,4 +1,9 @@
 {
+  "metadata": {
+    "website": {
+      "description": "Desarrollo web para negocios pequeños"
+    }
+  },
   "navigation": {
     "main": {
       "home": "Inicio",
