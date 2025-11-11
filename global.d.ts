@@ -5,6 +5,7 @@ import homepage from "./lang/en/homepage.json";
 import aboutUs from "./lang/en/about_us.json";
 import services from "./lang/en/services.json";
 import portfolio from "./lang/en/portfolio.json";
+import contact from "./lang/en/contact.json";
 
 type Messages = typeof messages & {
   common: typeof common;
@@ -12,6 +13,7 @@ type Messages = typeof messages & {
   about_us: typeof aboutUs;
   services: typeof services;
   portfolio: typeof portfolio;
+  contact: typeof contact;
 };
 
 declare module "next-intl" {
