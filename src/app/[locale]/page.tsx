@@ -458,7 +458,7 @@ export default function Home() {
                 profession={t("team.members.cristhian.occupation")}
                 description={t("team.members.cristhian.body")}
                 linkedinUrl="https://www.linkedin.com/in/cristhian-flo"
-                githubUrl="https://github.com/bachacode"
+                githubUrl="https://github.com/cristhianflo"
               />
 
               <TeamCard

@@ -215,7 +215,7 @@ export default function SobreNosotros() {
               profession={t("our_team.cards.cristhian.occupation")}
               description={t("our_team.cards.cristhian.body")}
               linkedinUrl="https://www.linkedin.com/in/cristhian-flo"
-              githubUrl="https://github.com/bachacode"
+              githubUrl="https://github.com/cristhianflo"
               icon={faCode}
             />
 
