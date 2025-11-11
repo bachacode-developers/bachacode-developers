@@ -29,7 +29,7 @@ export async function StructuredData({
     image: { "@id": "https://bachacode.com/#logo" },
     sameAs: [
       "https://www.linkedin.com/company/bachacode-developers",
-      "https://github.com/bachacode",
+      "https://github.com/bachacode-developers",
     ],
     contactPoint: {
       "@type": "ContactPoint",
