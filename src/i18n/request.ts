@@ -21,7 +21,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const cookies = await import(`../../lang/${locale}/legal/cookies.json`);
 
   const messages = {
-    ...(await import(`../../lang/${locale}.json`)).default,
     common: { ...common },
     homepage: { ...homepage },
     about_us: { ...aboutUs },
