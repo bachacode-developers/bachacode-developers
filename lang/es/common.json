@@ -28,5 +28,9 @@
     "title": "Página no encontrada",
     "description": "Disculpa, no podemos encontrar esa página, ¡diríjase a la página de inicio para seguir navegando!",
     "button": "Regresar al Inicio"
+  },
+  "contact_section": {
+    "body": "¿Listo para crear una página web para tu negocio? Creamos sitios asequibles y personalizados para emprendedores. <keyword>Trabaja con nosotros hoy.</keyword>",
+    "button": "Contáctanos"
   }
 }

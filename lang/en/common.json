@@ -28,5 +28,9 @@
     "title": "Page not found",
     "description": "Sorry, we can't find that page, please go to the home page to continue browsing!",
     "button": "Back to homepage"
+  },
+  "contact_section": {
+    "body": "Ready to launch your business website? Our web development services for small business and create affordable, custom sites for entrepreneurs. <keyword>Work with us today.</keyword>",
+    "button": "Contact Us"
   }
 }

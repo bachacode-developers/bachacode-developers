@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import UnderlinedText from "../common/UnderlinedText";
 
 export default function ContactSection() {
-  const t = useTranslations("contact_section");
+  const t = useTranslations("common.contact_section");
   return (
     <div className="bg-orange-primary-50 border-primary flex w-full justify-center border-y py-6 md:py-20">
       <div className="container mx-auto flex max-w-3xl flex-col items-center space-y-6 px-12 text-2xl text-pretty md:items-start">
