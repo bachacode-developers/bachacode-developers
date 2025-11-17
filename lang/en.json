@@ -1,23 +1,4 @@
 {
-  "price_card": {
-    "month": "month",
-    "specs": {
-      "title": "Specifications",
-      "ram": "{memory} ram",
-      "cpu": "{cores} core CPU",
-      "storage": "{space} NVMe storage",
-      "network": "{bandwith} bandwidth"
-    },
-    "includes": {
-      "title": "Includes",
-      "management": "24/7 professional management",
-      "ssl": "Free SSL at no additional cost",
-      "cloudflare": "Free Cloudflare integration",
-      "domain": "Domain included in the price",
-      "emails": "Personalized mail domain",
-      "uptime": "99,99% server uptime"
-    }
-  },
   "contact_section": {
     "body": "Ready to launch your business website? Our web development services for small business and create affordable, custom sites for entrepreneurs. <keyword>Work with us today.</keyword>",
     "button": "Contact Us"

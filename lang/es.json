@@ -1,23 +1,4 @@
 {
-  "price_card": {
-    "month": "mes",
-    "specs": {
-      "title": "Especificaciones",
-      "ram": "{memory} de RAM",
-      "cpu": "CPU de {cores} núcleos",
-      "storage": "{space} de almacenamiento NVMe",
-      "network": "{bandwith} de ancho de banda"
-    },
-    "includes": {
-      "title": "Incluye",
-      "management": "Gestión profesional 24/7",
-      "ssl": "SSL Gratis sin coste añadido",
-      "cloudflare": "Integración con Cloudflare gratuita",
-      "domain": "Dominio incluido en el precio",
-      "emails": "Correos profesionales personalizados",
-      "uptime": "99.99% de uptime del servidor"
-    }
-  },
   "contact_section": {
     "body": "¿Listo para crear una página web para tu negocio? Creamos sitios asequibles y personalizados para emprendedores. <keyword>Trabaja con nosotros hoy.</keyword>",
     "button": "Contáctanos"
