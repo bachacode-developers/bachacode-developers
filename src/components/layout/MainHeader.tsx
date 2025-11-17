@@ -10,7 +10,7 @@ import MenuLink from "../common/MenuLink";
 export default function MainHeader() {
   const locale = useLocale();
 
-  const t = useTranslations("navigation");
+  const t = useTranslations("common.navigation");
 
   return (
     <header className="sticky start-0 top-0 z-20 w-full border-b bg-white">
@@ -27,11 +27,11 @@ export default function MainHeader() {
           <LanguageSwitcher currentLocale={locale}></LanguageSwitcher>
 
           <NavMenu>
-            <MenuLink href="/">{t("home")}</MenuLink>
-            <MenuLink href="/about-us">{t("about_us")}</MenuLink>
-            <MenuLink href="/services">{t("services")}</MenuLink>
-            <MenuLink href="/portfolio">{t("portfolio")}</MenuLink>
-            <MenuLink href="/contact">{t("contact")}</MenuLink>
+            <MenuLink href="/">{t("main.home")}</MenuLink>
+            <MenuLink href="/about-us">{t("main.about_us")}</MenuLink>
+            <MenuLink href="/services">{t("main.services")}</MenuLink>
+            <MenuLink href="/portfolio">{t("main.portfolio")}</MenuLink>
+            <MenuLink href="/contact">{t("main.contact")}</MenuLink>
           </NavMenu>
         </div>
       </nav>

@@ -32,6 +32,7 @@ export type Project = {
     position: string;
   };
   externalLink?: string;
+  visitWebsite?: string;
 };
 
 interface ProjectShowcaseProps {

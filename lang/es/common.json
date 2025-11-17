@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "website": {
+      "description": "Desarrollo web para negocios pequeños"
+    }
+  },
+  "navigation": {
+    "main": {
+      "home": "Inicio",
+      "about_us": "Sobre Nosotros",
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "contact": "Contacto"
+    },
+    "legal": {
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad",
+      "cookies": "Política de Cookies"
+    }
+  },
+  "footer": {
+    "discover": "Descubre",
+    "contact": "Info. de contacto",
+    "contact_us": "Contactar",
+    "copyright": "Todos los derechos reservados."
+  },
+  "not_found": {
+    "title": "Página no encontrada",
+    "description": "Disculpa, no podemos encontrar esa página, ¡diríjase a la página de inicio para seguir navegando!",
+    "button": "Regresar al Inicio"
+  },
+  "contact_section": {
+    "body": "¿Listo para crear una página web para tu negocio? Creamos sitios asequibles y personalizados para emprendedores. <keyword>Trabaja con nosotros hoy.</keyword>",
+    "button": "Contáctanos"
+  },
+  "project_card": {
+    "button": "Ver sitio web"
+  }
+}

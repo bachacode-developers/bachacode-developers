@@ -4,7 +4,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 
 export default function LocaleNotFound() {
-  const t = useTranslations("not_found");
+  const t = useTranslations("common.not_found");
   return (
     <main className="bg-background">
       <div className="container mx-auto px-4 py-8 lg:px-6 lg:py-36">

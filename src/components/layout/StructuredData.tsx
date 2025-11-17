@@ -9,7 +9,7 @@ export async function StructuredData({
   schemas: Thing[];
 }) {
   const locale = await getLocale();
-  const t = await getTranslations("metadata");
+  const t = await getTranslations("common.metadata");
   // Organization Schema
   const organizationSchema: Organization = {
     "@type": "Organization",

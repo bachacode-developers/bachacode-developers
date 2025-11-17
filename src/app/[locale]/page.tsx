@@ -57,7 +57,7 @@ export async function generateMetadata({
 
   const t = await getTranslations({
     locale: hasLocale(routing.locales, locale) ? locale : routing.defaultLocale,
-    namespace: "home.metadata",
+    namespace: "homepage.metadata",
   });
 
   return {
@@ -78,7 +78,7 @@ export async function generateMetadata({
 }
 
 export default function Home() {
-  const t = useTranslations("home");
+  const t = useTranslations("homepage");
 
   const locale = useLocale();
   const pathname = getPathname({

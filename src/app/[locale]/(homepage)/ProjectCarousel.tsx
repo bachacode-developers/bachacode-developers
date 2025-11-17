@@ -30,7 +30,9 @@ function ProjectCarouselItem(project: Readonly<Project>) {
               rel="noopener noreferrer"
               className="mt-2 inline-block text-sm text-blue-400 hover:underline"
             >
-              Visit Website
+              {project.externalLink && project.visitWebsite && (
+                <span>{project.visitWebsite}</span>
+              )}
             </a>
           )}
         </div>
@@ -55,8 +57,8 @@ export default function ProjectCarousel({ items }: { items: Project[] }) {
           <ProjectCarouselItem key={item.id} {...item} />
         ))}
       </CarouselContent>
-      <CarouselNext variant="default" />
-      <CarouselPrevious variant="default" />
+      <CarouselNext variant="default" className="cursor-pointer" />
+      <CarouselPrevious variant="default" className="cursor-pointer" />
     </Carousel>
   );
 }

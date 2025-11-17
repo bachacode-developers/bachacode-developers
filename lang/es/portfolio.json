@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "title": "Portafolio",
+    "description": "Bachacode Developers se especializa en desarrollo web a medida, ofreciendo sitios estáticos, aplicaciones web y WordPress, ajustados a tus necesidades."
+  },
+  "hero": {
+    "badge": "¡Nuestro Asombroso Portafolio!",
+    "title": "<keyword>Sitios web</keyword> exitosos que hemos hecho",
+    "subtitle": "Descubre una selección de nuestros proyectos más destacados, que reflejan nuestro compromiso con la innovación y la calidad en el desarrollo web.",
+    "button": "Pide un presupuesto",
+    "projects": "Proyectos",
+    "success": "Exitosos"
+  },
+  "projects": {
+    "title": "<keyword>Proyectos web</keyword> en los que hemos trabajado",
+    "subtitle": "Sitios web que hemos construido o mejorado para aumentar la clientela de sus negocios",
+    "view_case_study": "Ver caso (Próximamente)",
+    "technologies_used": "Tecnologías usadas",
+    "view_website": "Ver sitio web"
+  }
+}

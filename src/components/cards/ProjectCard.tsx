@@ -20,7 +20,7 @@ export default function ProjectCard({
   inverted = false,
   altColor = false,
 }: ProjectCardProps) {
-  const t = useTranslations("project_card");
+  const t = useTranslations("common.project_card");
   return (
     <div className={`w-full ${altColor ? "bg-secondary" : "bg-primary"}`}>
       <div

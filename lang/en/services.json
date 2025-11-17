@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "title": "Services",
+    "description": "Bachacode Developers specializes in custom web development, offering static sites, web applications and WordPress, tailored to your needs."
+  },
+  "hero": {
+    "title": "Custom <keyword>Web Development</keyword> & Expert Consultings",
+    "subtitle": "Tailored digital solutions to drive your success",
+    "button": "Schedule a meeting"
+  },
+  "services": {
+    "title": "Custom <keyword>Web Solutions</keyword> to Grow Your Business Online",
+    "subtitle": "Customized solutions that transform your business",
+    "cards": {
+      "static": {
+        "title": "Static Websites",
+        "body": "Custom website development with static content, ideal for small projects that do not require frequent updates, such as landing pages, portfolios or catalogs. These sites offer speed, security and efficiency for stable content."
+      },
+      "wordpress": {
+        "title": "WordPress Websites",
+        "body": "Website development with WordPress, providing full control of the content without the need to touch code. Ideal for medium-sized projects such as blogs, portfolios or corporate sites, offering flexibility, scalability and easy customization."
+      },
+      "web-apps": {
+        "title": "Web Applications",
+        "body": "Custom web application development with advanced functionalities, such as online payment integration, personalized recommendation systems, live chat, real-time data analysis and content management. Perfect for medium to large projects, such as online stores, educational platforms, online booking systems, news portals, and business management systems (ERP, CRM)."
+      },
+      "consulting": {
+        "title": "Web Consulting",
+        "body": "If you want to add new functionalities or update your current project, we'll take care of planning the entire process for you. From time estimation to budget creation, we'll offer solutions using the technologies we know best, guaranteeing an efficient development according to your needs."
+      },
+      "support": {
+        "title": "Web Support",
+        "body": "When it comes to your existing project, we can help you with web support and correct any errors you find. We'll plan out the whole process, offering solutions in the technologies we know best to ensure the development is efficient and meets your specific needs."
+      },
+      "optimization": {
+        "title": "Website Optimization",
+        "body": "When it comes to your existing project, we can help you with web support and correct any errors you find. We'll plan out the whole process, offering solutions in the technologies we know best to ensure the development is efficient and meets your specific needs."
+      }
+    }
+  },
+  "advantages": {
+    "title": "what do we <keyword>offer</keyword> you?",
+    "subtitle": "Exclusive advantages for our customers",
+    "cards": {
+      "hosting": {
+        "title": "Professional Hosting",
+        "description": "You will no longer have to worry about managing your own website, we will do it for you. We offer you a scalable hosting service that adapts to your needs."
+      },
+      "design": {
+        "title": "Modern Designs",
+        "description": "We take care of giving your website an attractive design that reflects what your business wants to convey. If you find this page attractive, you will get an equal or superior quality in your project!"
+      },
+      "security": {
+        "title": "Guaranteed Safety",
+        "description": "Don't take unnecessary risks: our developers will take care of integrating all the necessary security measures to protect your website."
+      },
+      "support": {
+        "title": "Effective Support",
+        "description": "We are ready to attend any emergency that requires technical support, we guarantee to keep your website up and running 24 hours a day!"
+      }
+    }
+  },
+  "technologies": {
+    "title": "what technologies do we use?",
+    "subtitle": "We work with the best technologies for your projects"
+  },
+  "hosting": {
+    "title": "Let us handle the <keyword>hosting</keyword> of your project",
+    "subtitle": "Host your project with us and forget about technical problems",
+    "cards": {
+      "web": {
+        "title": "Web Hosting",
+        "description": "Professional hosting designed for business owners who want secure, reliable, and optimized websites without the technical headaches.",
+        "features": {
+          "multiple_websites": {
+            "title": "Host up to 5 websites",
+            "description": "Host up to 5 websites under one plan — ideal for a main site, landing pages, or an online store."
+          },
+          "professional_email": {
+            "title": "Custom business email",
+            "description": "Get a custom email address with your domain name (you@yourbusiness.com) to look professional and trustworthy."
+          },
+          "custom_php": {
+            "title": "PHP & HTML Support",
+            "description": "Support for HTML static websites and PHP applications, including WordPress"
+          },
+          "team_access": {
+            "title": "Secure team access",
+            "description": "Grant secure access to employees or partners without sharing sensitive login details."
+          }
+        }
+      },
+      "cloud": {
+        "title": "Cloud Hosting",
+        "description": "Flexible and scalable hosting that combines the power of dedicated resources with the reliability of the cloud. Ideal for businesses that need consistent performance.",
+        "features": {
+          "dedicated_resources": {
+            "title": "Dedicated resources",
+            "description": "Guaranteed CPU, RAM, and storage reserved for your websites without sharing with other users."
+          },
+          "auto_scaling": {
+            "title": "Automatic scaling",
+            "description": "Your hosting resources automatically scale up or down to handle traffic spikes or business growth."
+          },
+          "flexible_stack": {
+            "title": "Flexible app stack",
+            "description": "Run different applications and frameworks beyond WordPress, including custom stacks tailored to your project."
+          },
+          "high_concurrency": {
+            "title": "Handles high traffic",
+            "description": "Serve large numbers of visitors and transactions at the same time without losing performance."
+          }
+        }
+      }
+    }
+  }
+}
