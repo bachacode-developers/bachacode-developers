@@ -15,6 +15,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const portfolio = await import(`../../lang/${locale}/portfolio.json`);
   const contact = await import(`../../lang/${locale}/contact.json`);
 
+  // Legal pages
+  const terms = await import(`../../lang/${locale}/legal/terms.json`);
+  const privacy = await import(`../../lang/${locale}/legal/privacy.json`);
+  const cookies = await import(`../../lang/${locale}/legal/cookies.json`);
+
   const messages = {
     ...(await import(`../../lang/${locale}.json`)).default,
     common: { ...common },
@@ -23,6 +28,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
     services: { ...services },
     portfolio: { ...portfolio },
     contact: { ...contact },
+    legal: {
+      terms: { ...terms },
+      privacy: { ...privacy },
+      cookies: { ...cookies },
+    },
   };
 
   return {
