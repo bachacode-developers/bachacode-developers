@@ -10,7 +10,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   const common = await import(`../../lang/${locale}/common.json`);
   const homepage = await import(`../../lang/${locale}/homepage.json`);
-  const aboutUs = await import(`../../lang/${locale}/about_us.json`);
+  const about_us = await import(`../../lang/${locale}/about_us.json`);
   const services = await import(`../../lang/${locale}/services.json`);
   const portfolio = await import(`../../lang/${locale}/portfolio.json`);
   const contact = await import(`../../lang/${locale}/contact.json`);
@@ -23,7 +23,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const messages = {
     common: { ...common },
     homepage: { ...homepage },
-    about_us: { ...aboutUs },
+    about_us: { ...about_us },
     services: { ...services },
     portfolio: { ...portfolio },
     contact: { ...contact },
